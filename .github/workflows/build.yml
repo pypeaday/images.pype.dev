@@ -36,12 +36,7 @@ jobs:
 
       - name: convert to webp
         run: webpc -q=50 -o ./static
-
-      - name: ImageMagick Action
-        uses: jruipinto/ImageMagick-action@v1
-        with:
-          command: mogrify -path static/thumb -auto-orient -resize 300x300 static/*.png
-
+        
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
