@@ -21,7 +21,8 @@ jobs:
           python-version: 3.8
 
       - name: install markata
-        run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
+        run: pip install git+https://github.com/WaylonWalker/markata.git python-twitter background # checksumdir
+        # run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
 
       - run: markata --version
       - run: markata --help
