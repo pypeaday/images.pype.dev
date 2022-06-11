@@ -7,27 +7,27 @@ assets_dir = "static"
 hooks = ["plugins.load_json", "markata.plugins.covers", "markata.plugins.base_cli",]
 # hooks = ["markata.plugins.publish_source", "plugins.index", "default", ]
 # disabled_hooks = ["default"]
-url = "https://images.waylonwalker.com"
-title = "Images for waylonwalker.com"
-description = "Images for waylonwalker.com"
-rss_description = "Images for waylonwalker.com"
-author_name = "Waylon Walker"
-author_email = "waylon@waylonwalaker.com"
-icon = "8bitcc.png"
+url = "https://images.pype.dev"
+title = "Images for pype.dev"
+description = "Images for pype.dev"
+rss_description = "Images for pype.dev"
+author_name = "Pypeaday"
+author_email = "nic.payne@protonmail.com"
+icon = "bitmoji.png"
 lang = "en"
 # post_template = "pages/templates/post_template.html"
 theme_color = "#322D39"
 background_color = "#B73CF6"
 start_url = "/"
-site_name = "Waylon Walker"
-short_name = "ww"
+site_name = "Pypeaday"
+short_name = "pype"
 display = "minimal-ui"
 twitter_card = "summary_large_image"
-twitter_creator = "@_waylonwalker"
-twitter_site = "@_waylonwalker"
+twitter_creator = "@pypeaday"
+twitter_site = "@pypeaday"
 
 [markata.glob_json]
-url='https://waylonwalker.com/markata.json'
+url='https://pype.dev/markata.json'
 
 [markata.archive.pages.archive]
 
@@ -101,12 +101,12 @@ content = "article"
 [[markata.seo]]
 name = "og:author"
 property = "og:author"
-content = "Waylon Walker"
+content = "Pypeaday"
 
 [[markata.seo]]
 name = "og:site_name"
 property = "og:site_name"
-content = "Waylon Walker"
+content = "Pypeaday"
 
 [[markata.seo]]
 name = "theme-color"
