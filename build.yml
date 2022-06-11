@@ -55,3 +55,19 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: auto thumbnail and compress
+
+      # - name: create root
+      #   run: |
+      #       cp static/index.html markout/index.html
+
+      - name: sw-version
+        run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
+
+      - name: GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: crazy-max/ghaction-github-pages@v2.6.0
+        with:
+          target_branch: markout
+          build_dir: markout
+          jekyll: false
