@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name='og:type' content='website' />
+    <meta name='og:title' content="Pypeaday's Image Gallery" />
+    <meta name="generator" content="Markata 0.0.1">
+    <meta name='twitter:title' content="Pypeaday's Image Gallery" />
+    <meta name='og:image' content='https://images.pype.dev/repo-social.png' />
+    <meta name='twitter:image' content='https://images.pype.dev/repo-social.png' />
+    <meta name='og:image:width' content='1280' />
+    <meta name='og:image:height' content='640' />
+    <meta name='og:url' content='https://images.pype.dev/' />
+    <meta name='description' content='images for pype.dev' />
+    <meta name='og:description' content='images for pype.dev' />
+    <meta name='twitter:description' content='images for pype.dev' />
+    <link rel="icon" href="https://pype.dev/bitmoji.png" type="image/png">
+    <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ">
+    <title>Pypeaday Images</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <!-- <link rel='stylesheet' href='https://dev.pype.dev/archive-styles.css' /> -->
+    <style media="screen">
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style-type: none;
+        max-width: 80vw;
+      }
+      li {
+        max-width: 300px;
+        margin: .1rem;
+      }
+      input {
+        margin: 5rem;
+      }
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #000000;
+        color: white;
+        padding: 8px;
+        z-index: 100;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+    </style>
+
+    <script>
+      change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
+    </script>
+
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id='thumbs'>
+      <input type="search" class="search"  placeholder="fuzzy search!">
+      <ul 
+        class='list images-list' 
+        >
+        $images
+      </ul>
+    </main>
+  </body>
+<script>
+    var postList = new List('thumbs', {
+        valueNames: ['filename']
+    })
+</script>
+</html>

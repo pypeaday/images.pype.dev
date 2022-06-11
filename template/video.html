@@ -1,0 +1,20 @@
+<li style='width:300px;'>
+  <video controls muted autoplay playsinline loop width="300">
+    <source src="/$file.webm"
+            type="video/webm">
+    <source src="/$file.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+  <div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+      speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+      slow down
+    </button>
+  </div>
+  <a href="/$file.mp4" style='text-decoration:none;'>
+    <p class='filename' style='max-width:100vw;'>$file.mp4</p>
+  </a>
+</li>
