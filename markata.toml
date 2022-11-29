@@ -47,8 +47,8 @@ disabled_hooks = [
 ]
 
 ## Site Config
-# url = "https://pypeaday.github.io/"
-url = "localhost:8000"
+url = "https://pypeaday.github.io/"
+# url = "localhost:8000"
 description = "Images for pype.dev"
 title = "Images for pype.dev"
 rss_description = "Images for pype.dev"
@@ -59,8 +59,8 @@ author_email = "images@pype.dev"
 site_name = "Image repository for pype.dev"
 theme_color = "#322D39"
 background_color = "#B73CF6"
-# start_url = "/images-pype-dev"
-start_url = "/"
+start_url = "/images-pype-dev"
+# start_url = "/"
 short_name = "Image repository for pype.dev"
 display = "minimal-ui"
 icon = "icon.png"
@@ -241,10 +241,17 @@ li {
 title="archive"
 filter="True"
 reverse="True"
+# card_template="""
+# <li class='post'>
+#     <a href="/{{ title }}">
+#         <img src="/{{ title }}" height='{{ height }}' width='{{ width }}'>
+#     </a>
+# </li>
+# """
 card_template="""
 <li class='post'>
-    <a href="/{{ title }}">
-        <img src="/{{ title }}" height='{{ height }}' width='{{ width }}'>
+    <a href="/images-pype-dev/{{ title }}">
+        <img src="/images-pype-dev/{{ title }}" height='{{ height }}' width='{{ width }}'>
     </a>
 </li>
 """
