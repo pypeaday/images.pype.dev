@@ -1,0 +1,27 @@
+# config.toml - Configuration for Shotput Application
+
+title = "Shotput Configuration"
+
+[repository]
+# Path to the local Git repository where images will be stored.
+# If running this application from within the root of your images repository,
+# set this to "." (current directory).
+images_repo_path = "."
+
+# Subdirectory within the images_repo_path where images should be saved.
+# Example: "uploads", "media/blog", etc.
+image_sub_dir = "blog-media"
+
+# Whether to automatically push changes to the remote Git repository after each commit.
+# Requires your environment to be configured for passwordless push (e.g., SSH keys).
+git_auto_push = true
+
+[static_cdn]
+# Your username on the static CDN provider (e.g., for statically.io, this is your GitHub username).
+user = "pypeaday" # IMPORTANT: Replace with your GitHub username
+
+# The name of the repository on the CDN provider (e.g., your GitHub image repository name).
+repo = "images.pype.dev" # IMPORTANT: Replace with your image repository name
+
+# The branch in your image repository that the CDN should serve files from.
+branch = "main"
