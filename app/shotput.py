@@ -11,36 +11,46 @@
 # ///
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
-from fastapi.responses import JSONResponse, HTMLResponse, Response # Added HTMLResponse, Response
+from fastapi.responses import (
+    JSONResponse,
+    HTMLResponse,
+    Response,
+)  # Added HTMLResponse, Response
 from pathlib import Path
 import uuid
 import datetime
 from PIL import Image
 import io
-import uvicorn # Added uvicorn
-import toml # For reading config.toml
+import uvicorn  # Added uvicorn
+import toml  # For reading config.toml
 
 # Assuming utils.py is in the same directory (app)
 # from .utils import commit_and_push_image
 
-import git # GitPython library
+import git  # GitPython library
 
-def commit_and_push_image(repo_path: Path, image_file_path: Path, commit_message: str, auto_push: bool = False):
+
+def commit_and_push_image(
+    repo_path: Path, image_file_path: Path, commit_message: str, auto_push: bool = False
+):
     """
     Adds, commits, and (optionally) pushes a new image to the Git repository.
-    
+
     Args:
         repo_path: The local path to the Git repository.
         image_file_path: The path to the image file within the repository (e.g., repo_path / 'static' / 'image.png').
         commit_message: The commit message.
-        
+
     Returns:
         A tuple (success: bool, message: str).
     """
     try:
         # Ensure repo_path is a valid directory
         if not repo_path.is_dir():
-            return False, f"Repository path {repo_path} does not exist or is not a directory."
+            return (
+                False,
+                f"Repository path {repo_path} does not exist or is not a directory.",
+            )
 
         # Initialize the repository object
         try:
@@ -55,7 +65,10 @@ def commit_and_push_image(repo_path: Path, image_file_path: Path, commit_message
         try:
             relative_image_path = image_file_path.relative_to(repo_path)
         except ValueError:
-            return False, f"Image file {image_file_path} is not within the repository path {repo_path}."
+            return (
+                False,
+                f"Image file {image_file_path} is not within the repository path {repo_path}.",
+            )
 
         # Check if the file exists before adding
         if not image_file_path.exists():
@@ -63,30 +76,40 @@ def commit_and_push_image(repo_path: Path, image_file_path: Path, commit_message
 
         # Add the image file to the staging area
         repo.index.add([str(relative_image_path)])
-        
+
         # Commit the changes
         repo.index.commit(commit_message)
-        
+
         push_message = ""
         if auto_push:
             try:
                 # Attempt to push to the default remote (usually 'origin') and current branch
                 # Ensure your environment is configured for passwordless push (e.g., SSH keys)
                 # or Git credential helper.
-                origin = repo.remote(name='origin') # Assumes remote is named 'origin'
+                origin = repo.remote(name="origin")  # Assumes remote is named 'origin'
                 # You might want to specify the branch explicitly if it's not the current one
                 # or if you want to push to a specific remote branch.
                 # Example: origin.push(repo.head.reference)
                 push_infos = origin.push()
-                
+
                 # Check push status
-                # push_infos is a list of PushInfo objects. 
+                # push_infos is a list of PushInfo objects.
                 # A successful push usually has flags like PushInfo.UP_TO_DATE or PushInfo.FAST_FORWARD
                 # An error might have PushInfo.ERROR or PushInfo.REJECTED
                 # This is a basic check; more robust error handling might be needed.
-                if any(p.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED) for p in push_infos):
-                    errors = [p.summary for p in push_infos if p.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)]
-                    push_message = f" Commit successful, but push failed: {'; '.join(errors)}"
+                if any(
+                    p.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)
+                    for p in push_infos
+                ):
+                    errors = [
+                        p.summary
+                        for p in push_infos
+                        if p.flags
+                        & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)
+                    ]
+                    push_message = (
+                        f" Commit successful, but push failed: {'; '.join(errors)}"
+                    )
                     # Potentially return False here if push is critical
                     # return False, f"Image '{relative_image_path}' committed, but push failed: {'; '.join(errors)}"
                 else:
@@ -99,15 +122,19 @@ def commit_and_push_image(repo_path: Path, image_file_path: Path, commit_message
                 # Catch other potential errors during push
                 push_message = f" Commit successful, but an unexpected error occurred during push: {str(e)}"
                 # return False, f"Image '{relative_image_path}' committed, but an unexpected error occurred during push: {str(e)}"
-        
-        return True, f"Image '{relative_image_path}' committed successfully{push_message}."
+
+        return (
+            True,
+            f"Image '{relative_image_path}' committed successfully{push_message}.",
+        )
 
     except Exception as e:
         # Log the exception for debugging
         print(f"Error during Git operation: {e}")
         return False, f"An error occurred during Git operation: {str(e)}"
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # Example usage (for testing this script directly)
     # This requires a test git repository to be set up.
     print("This is a utility module for Git operations. It's meant to be imported.")
@@ -137,15 +164,16 @@ if __name__ == '__main__':
 
 
 # --- Configuration ---
-CONFIG_FILE_PATH = Path("config.toml")
+CONFIG_FILE_PATH = Path("app/config.toml")
 
 # Default configuration values
 DEFAULT_IMAGES_REPO_PATH_STR = "."  # Assuming app runs in the root of the image repo
 DEFAULT_IMAGE_SUB_DIR = "blog-media"
 DEFAULT_GIT_AUTO_PUSH = False
-DEFAULT_STATIC_IO_USER = "your_github_username" # Placeholder
-DEFAULT_STATIC_IO_REPO = "your_images_repo_name" # Placeholder
+DEFAULT_STATIC_IO_USER = "your_github_username"  # Placeholder
+DEFAULT_STATIC_IO_REPO = "your_images_repo_name"  # Placeholder
 DEFAULT_STATIC_IO_BRANCH = "main"
+DEFAULT_APP_PORT = 8000
 
 # Load configuration from TOML file
 config = {}
@@ -156,31 +184,36 @@ if CONFIG_FILE_PATH.exists():
         print(f"Error decoding {CONFIG_FILE_PATH}: {e}. Using default configurations.")
         config = {}
 else:
-    print(f"{CONFIG_FILE_PATH} not found. Using default configurations and creating a template.")
+    print(
+        f"{CONFIG_FILE_PATH} not found. Using default configurations and creating a template."
+    )
     # Create a template config file if it doesn't exist
     template_config = {
         "title": "Shotput Configuration",
         "repository": {
             "images_repo_path": DEFAULT_IMAGES_REPO_PATH_STR,
             "image_sub_dir": DEFAULT_IMAGE_SUB_DIR,
-            "git_auto_push": DEFAULT_GIT_AUTO_PUSH
+            "git_auto_push": DEFAULT_GIT_AUTO_PUSH,
         },
         "static_cdn": {
             "user": DEFAULT_STATIC_IO_USER,
             "repo": DEFAULT_STATIC_IO_REPO,
-            "branch": DEFAULT_STATIC_IO_BRANCH
-        }
+            "branch": DEFAULT_STATIC_IO_BRANCH,
+        },
     }
     try:
         with open(CONFIG_FILE_PATH, "w") as f:
             toml.dump(template_config, f)
-        print(f"Created a template config file at {CONFIG_FILE_PATH}. Please review and update it.")
+        print(
+            f"Created a template config file at {CONFIG_FILE_PATH}. Please review and update it."
+        )
     except Exception as e:
         print(f"Could not create template config file: {e}")
 
 # Get values from config, falling back to defaults
 repo_config = config.get("repository", {})
 cdn_config = config.get("static_cdn", {})
+server_config = config.get("server", {})
 
 IMAGES_REPO_PATH_STR = repo_config.get("images_repo_path", DEFAULT_IMAGES_REPO_PATH_STR)
 IMAGES_REPO_PATH = Path(IMAGES_REPO_PATH_STR)
@@ -191,9 +224,14 @@ STATIC_IO_USER = cdn_config.get("user", DEFAULT_STATIC_IO_USER)
 STATIC_IO_REPO = cdn_config.get("repo", DEFAULT_STATIC_IO_REPO)
 STATIC_IO_BRANCH = cdn_config.get("branch", DEFAULT_STATIC_IO_BRANCH)
 
+# Server configuration
+APP_PORT = server_config.get("port", DEFAULT_APP_PORT)
+
 # Ensure IMAGE_SUB_DIR is not empty and is a valid relative path component
-if not IMAGE_SUB_DIR or any(c in IMAGE_SUB_DIR for c in ['/', '\\', '..']):
-    print(f"Warning: Invalid IMAGE_SUB_DIR '{IMAGE_SUB_DIR}'. Using default '{DEFAULT_IMAGE_SUB_DIR}'.")
+if not IMAGE_SUB_DIR or any(c in IMAGE_SUB_DIR for c in ["/", "\\", ".."]):
+    print(
+        f"Warning: Invalid IMAGE_SUB_DIR '{IMAGE_SUB_DIR}'. Using default '{DEFAULT_IMAGE_SUB_DIR}'."
+    )
     IMAGE_SUB_DIR = DEFAULT_IMAGE_SUB_DIR
 
 # --- End Configuration ---
@@ -539,17 +577,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 app = FastAPI()
 
+
 @app.on_event("startup")
 async def startup_event():
     is_default_path = str(IMAGES_REPO_PATH) == DEFAULT_IMAGES_REPO_PATH_STR
     is_default_user = STATIC_IO_USER == DEFAULT_STATIC_IO_USER
-    
+
     if is_default_path or is_default_user:
         print("--- SHOTPUT CONFIGURATION WARNING ---")
         if is_default_path:
-            print(f"WARNING: IMAGES_REPO_PATH is using the default value: {IMAGES_REPO_PATH}")
+            print(
+                f"WARNING: IMAGES_REPO_PATH is using the default value: {IMAGES_REPO_PATH}"
+            )
         if is_default_user:
-            print(f"WARNING: STATIC_IO_USER is using the default value: {STATIC_IO_USER}")
+            print(
+                f"WARNING: STATIC_IO_USER is using the default value: {STATIC_IO_USER}"
+            )
         print("Please ensure these are correctly configured in 'config.toml'.")
         print("--- END SHOTPUT CONFIGURATION WARNING ---")
 
@@ -558,32 +601,44 @@ async def startup_event():
         resolved_image_save_dir.mkdir(parents=True, exist_ok=True)
         print(f"Image save directory ensured: {resolved_image_save_dir}")
     except Exception as e:
-        print(f"CRITICAL ERROR: Could not create image save directory {resolved_image_save_dir}. "
-              f"Please check permissions and path configuration. Error: {e}")
+        print(
+            f"CRITICAL ERROR: Could not create image save directory {resolved_image_save_dir}. "
+            f"Please check permissions and path configuration. Error: {e}"
+        )
         # Consider raising an error to halt startup if the directory is essential
         # raise RuntimeError(f"Could not create image save directory: {e}")
+
 
 @app.get("/", response_class=HTMLResponse)
 async def get_index_html():
     return INDEX_HTML_CONTENT
 
+
 @app.get("/script.js", response_class=Response)
 async def get_script_js():
     return Response(content=SCRIPT_JS_CONTENT, media_type="application/javascript")
+
 
 @app.post("/upload_image/")
 async def upload_image(image_blob: UploadFile = File(...)):
     try:
         # Basic check if using default placeholder values that might indicate misconfiguration
-        if str(IMAGES_REPO_PATH) == DEFAULT_IMAGES_REPO_PATH_STR and STATIC_IO_USER == DEFAULT_STATIC_IO_USER:
-             print("INFO: Processing upload with default repository path and user. Ensure this is intended.")
+        if (
+            str(IMAGES_REPO_PATH) == DEFAULT_IMAGES_REPO_PATH_STR
+            and STATIC_IO_USER == DEFAULT_STATIC_IO_USER
+        ):
+            print(
+                "INFO: Processing upload with default repository path and user. Ensure this is intended."
+            )
 
         if not image_blob.content_type.startswith("image/"):
-            raise HTTPException(status_code=400, detail="Invalid file type. Please upload an image.")
+            raise HTTPException(
+                status_code=400, detail="Invalid file type. Please upload an image."
+            )
 
         timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
         unique_id = uuid.uuid4().hex[:8]
-        
+
         content_type_map = {
             "image/jpeg": ".jpg",
             "image/png": ".png",
@@ -591,14 +646,14 @@ async def upload_image(image_blob: UploadFile = File(...)):
             "image/webp": ".webp",
         }
         file_extension = content_type_map.get(image_blob.content_type.lower(), ".png")
-        
+
         image_name = f"{timestamp}_{unique_id}{file_extension}"
-        
+
         current_image_save_dir = IMAGES_REPO_PATH / IMAGE_SUB_DIR
         image_path = current_image_save_dir / image_name
 
         contents = await image_blob.read()
-        
+
         try:
             img = Image.open(io.BytesIO(contents))
             if img.format and img.format.upper() in ["HEIC", "HEIF"]:
@@ -609,53 +664,86 @@ async def upload_image(image_blob: UploadFile = File(...)):
                 with open(image_path, "wb") as f:
                     f.write(contents)
         except Exception as e:
-            raise HTTPException(status_code=400, detail=f"Invalid or unsupported image file: {str(e)}")
+            raise HTTPException(
+                status_code=400, detail=f"Invalid or unsupported image file: {str(e)}"
+            )
 
         commit_message = f"Add image {image_name} via Shotput"
-        success, message = commit_and_push_image(IMAGES_REPO_PATH, image_path, commit_message, GIT_AUTO_PUSH)
-        
+        success, message = commit_and_push_image(
+            IMAGES_REPO_PATH, image_path, commit_message, GIT_AUTO_PUSH
+        )
+
         if not success:
-            image_path.unlink(missing_ok=True) 
-            raise HTTPException(status_code=500, detail=f"Failed to commit image: {message}")
+            image_path.unlink(missing_ok=True)
+            raise HTTPException(
+                status_code=500, detail=f"Failed to commit image: {message}"
+            )
 
         cdn_url = f"https://cdn.statically.io/gh/{STATIC_IO_USER}/{STATIC_IO_REPO}/{STATIC_IO_BRANCH}/{IMAGE_SUB_DIR}/{image_name}"
-        
+
         return JSONResponse(content={"cdn_url": cdn_url, "image_name": image_name})
 
     except HTTPException as e:
-        raise e # Re-raise known HTTP exceptions
+        raise e  # Re-raise known HTTP exceptions
     except Exception as e:
-        print(f"An unexpected error occurred during upload: {e}") # Log for server-side debugging
+        print(
+            f"An unexpected error occurred during upload: {e}"
+        )  # Log for server-side debugging
         import traceback
+
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail="An internal server error occurred during image processing.")
+        raise HTTPException(
+            status_code=500,
+            detail="An internal server error occurred during image processing.",
+        )
+
 
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
 
+
 if __name__ == "__main__":
     print("--- Shotput Application Runner ---")
-    print("Attempting to start server on http://0.0.0.0:8000")
+    print(f"Attempting to start server on http://0.0.0.0:{APP_PORT}")
     print(f"Using image repository: {IMAGES_REPO_PATH.resolve()}")
     print(f"Image subdirectory: {IMAGE_SUB_DIR}")
-    print(f"Statically.io CDN: User='{STATIC_IO_USER}', Repo='{STATIC_IO_REPO}', Branch='{STATIC_IO_BRANCH}'")
+    print(
+        f"Statically.io CDN: User='{STATIC_IO_USER}', Repo='{STATIC_IO_REPO}', Branch='{STATIC_IO_BRANCH}'"
+    )
     print(f"Git auto-push: {'Enabled' if GIT_AUTO_PUSH else 'Disabled'}")
-    print(f"Config loaded from: {CONFIG_FILE_PATH.resolve() if CONFIG_FILE_PATH.exists() else 'Defaults (config file not found or error)'}")
-    if not CONFIG_FILE_PATH.exists() or STATIC_IO_USER == DEFAULT_STATIC_IO_USER or STATIC_IO_REPO == DEFAULT_STATIC_IO_REPO:
-        print("\nIMPORTANT: Review 'config.toml'. Update 'static_cdn.user' and 'static_cdn.repo' with your actual GitHub username and image repository name.")
-    
+    print(
+        f"Config loaded from: {CONFIG_FILE_PATH.resolve() if CONFIG_FILE_PATH.exists() else 'Defaults (config file not found or error)'}"
+    )
+    if (
+        not CONFIG_FILE_PATH.exists()
+        or STATIC_IO_USER == DEFAULT_STATIC_IO_USER
+        or STATIC_IO_REPO == DEFAULT_STATIC_IO_REPO
+    ):
+        print(
+            "\nIMPORTANT: Review 'config.toml'. Update 'static_cdn.user' and 'static_cdn.repo' with your actual GitHub username and image repository name."
+        )
+
     is_default_path_main = str(IMAGES_REPO_PATH) == DEFAULT_IMAGES_REPO_PATH_STR
     is_default_user_main = STATIC_IO_USER == DEFAULT_STATIC_IO_USER
 
     if is_default_path_main or is_default_user_main:
         print("\n--- CONFIGURATION NOTICE (from main execution block) ---")
         if is_default_path_main:
-            print(f"WARNING: IMAGES_REPO_PATH is set to its default value: {IMAGES_REPO_PATH}")
+            print(
+                f"WARNING: IMAGES_REPO_PATH is set to its default value: {IMAGES_REPO_PATH}"
+            )
         if is_default_user_main:
-            print(f"WARNING: STATIC_IO_USER is set to its default value: {STATIC_IO_USER}")
-        print("If these are not your intended settings, please stop the server (Ctrl+C),")
-        print(f"edit the configuration variables at the top of {Path(__file__).resolve()}, and restart.")
+            print(
+                f"WARNING: STATIC_IO_USER is set to its default value: {STATIC_IO_USER}"
+            )
+        print(
+            "If these are not your intended settings, please stop the server (Ctrl+C),"
+        )
+        print(
+            f"edit the configuration variables at the top of {Path(__file__).resolve()}, and restart."
+        )
         print("--- END CONFIGURATION NOTICE ---\n")
-    
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+    uvicorn.run(app, host="0.0.0.0", port=APP_PORT, log_level="info")
+
