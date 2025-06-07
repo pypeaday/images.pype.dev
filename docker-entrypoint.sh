@@ -1,25 +1,41 @@
 #!/bin/bash
-set -e
+set -e # Exit immediately if a command exits with a non-zero status.
+set -x # Print commands and their arguments as they are executed.
 
-# VIRTUAL_ENV and PATH should be set by the Dockerfile
+# Ensure HOME is correctly set for appuser, which is crucial for git and ssh
+export HOME=/home/appuser
 
-SSH_DIR="/home/appuser/.ssh"
+echo "--- Docker Entrypoint Start ---"
+echo "User: $(whoami)"
+echo "HOME: $HOME"
+echo "PWD: $(pwd)"
+
+SSH_DIR="$HOME/.ssh"
 PRIVATE_KEY_PATH="$SSH_DIR/id_rsa"
 KNOWN_HOSTS_PATH="$SSH_DIR/known_hosts"
+
+echo "Listing $SSH_DIR contents:"
+ls -la "$SSH_DIR" || echo "$SSH_DIR not found or cannot be listed."
 
 # Check for SSH private key
 if [ ! -f "$PRIVATE_KEY_PATH" ]; then
   echo "ERROR: SSH private key not found at $PRIVATE_KEY_PATH."
-  echo "Please ensure your private key is correctly mounted in docker-compose.yml (e.g., ~/.skm/images-pype-dev) and the host path is correct."
-  echo "The key file on your host machine must also have permissions set to 600 (e.g., chmod 600 ~/.skm/images-pype-dev)."
-  exit 1
+  echo "Please ensure your private key is correctly mounted in docker-compose.yml and the host path is correct."
+  echo "The key file on your host machine must also have permissions set to 600."
+  # exit 1 # Commenting out exit 1 for now to see if ssh -T gives more info
 else
   echo "SSH private key found at $PRIVATE_KEY_PATH."
-  # The key is mounted read-only, permissions are set on the host.
-  # Verify known_hosts exists
-  if [ ! -f "$KNOWN_HOSTS_PATH" ]; then
-    echo "Warning: $KNOWN_HOSTS_PATH not found. SSH connections might require manual confirmation or fail."
-  fi
+  echo "Permissions of $PRIVATE_KEY_PATH:"
+  ls -l "$PRIVATE_KEY_PATH"
+fi
+
+# Verify known_hosts exists
+if [ ! -f "$KNOWN_HOSTS_PATH" ]; then
+  echo "Warning: $KNOWN_HOSTS_PATH not found. SSH connections might require manual confirmation or fail."
+else
+  echo "$KNOWN_HOSTS_PATH found."
+  echo "Permissions of $KNOWN_HOSTS_PATH:"
+  ls -l "$KNOWN_HOSTS_PATH"
 fi
 
 # Configure Git with credentials from environment variables
@@ -27,10 +43,18 @@ if [ -n "$GIT_COMMIT_USER_NAME" ] && [ -n "$GIT_COMMIT_USER_EMAIL" ]; then
   echo "Configuring Git with user: '$GIT_COMMIT_USER_NAME', email: '$GIT_COMMIT_USER_EMAIL'"
   git config --global user.name "$GIT_COMMIT_USER_NAME"
   git config --global user.email "$GIT_COMMIT_USER_EMAIL"
+  echo "Git global config user.name: $(git config --global user.name || echo 'not set')"
+  echo "Git global config user.email: $(git config --global user.email || echo 'not set')"
 else
   echo "Warning: GIT_COMMIT_USER_NAME or GIT_COMMIT_USER_EMAIL not set. Git commits may fail or use default credentials."
 fi
 
-# Start the application
-echo "Starting application (uv run app/shotput.py)..."
+# Attempt an SSH connection to GitHub to test keys and known_hosts
+echo "Attempting SSH connection to GitHub (ssh -T git@github.com)..."
+ssh -o StrictHostKeyChecking=yes -o BatchMode=yes -T git@github.com || echo "SSH connection test to git@github.com failed. Exit status: $?"
+# StrictHostKeyChecking=yes will use known_hosts and fail if host key changed or not present.
+# BatchMode=yes prevents password prompts.
+
+echo "--- Docker Entrypoint: Setup Complete, Executing Command ---"
+# Start the application (passed as arguments from docker-compose command)
 exec "$@"

@@ -8,7 +8,7 @@ services:
       # Mount your SSH private key from host to container
       # IMPORTANT: Replace '~/.skm/images-pype-dev' if this path is not exactly correct for your host.
       # This key file on your HOST must have permissions 600 (e.g., chmod 600 ~/.skm/images-pype-dev)
-      - /home/nic/.skm/images-pype-dev:/home/appuser/.ssh:ro
+      - /home/nic/.skm/images-pype-dev/id_rsa:/home/appuser/.ssh/id_rsa:ro
     env_file: .env
     restart: unless-stopped
     command: ["uv", "run", "app/shotput.py"]
