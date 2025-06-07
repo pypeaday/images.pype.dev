@@ -4,13 +4,13 @@ Image repo for [pype.dev](https://www.pype.dev)
 
 ## Shotput WebUI
 
-`uv run shotput.py` to start an app that you can paste screenshots in and get
+`uv run app/shotput.py` to start an app that you can paste screenshots in and get
 back a markdown link to serve the image up on the rendered post via
 statically.io through the github repo
 
 ### Configuration
 
-See [config.toml](./config.toml)
+See [app/config.toml](./app/config.toml)
 
 
 ### Example
