@@ -18,7 +18,7 @@ git_auto_push = true
 
 [server]
 # Port for the application server
-port = 7999
+port = 8000
 
 [static_cdn]
 # Your username on the static CDN provider (e.g., for statically.io, this is your GitHub username).
