@@ -17,18 +17,24 @@ from fastapi.responses import (
     Response,
 )  # Added HTMLResponse, Response
 from pathlib import Path
+import toml
+from datetime import datetime
+import logging
+import git
 import uuid
-import datetime
 from PIL import Image
 import io
 import uvicorn  # Added uvicorn
-import toml  # For reading config.toml
 
-# Assuming utils.py is in the same directory (app)
-# from .utils import commit_and_push_image
-
-import git  # GitPython library
-
+# Configure basic logging to output to stderr, which Docker captures
+logging.basicConfig(
+    level=logging.DEBUG, 
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler() # Ensures output to stderr
+    ]
+)
+logger = logging.getLogger(__name__)
 
 def commit_and_push_image(
     repo_path: Path, image_file_path: Path, commit_message: str, auto_push: bool = False
@@ -86,42 +92,55 @@ def commit_and_push_image(
                 # Attempt to push to the default remote (usually 'origin') and current branch
                 # Ensure your environment is configured for passwordless push (e.g., SSH keys)
                 # or Git credential helper.
-                origin = repo.remote(name="origin")  # Assumes remote is named 'origin'
-                # You might want to specify the branch explicitly if it's not the current one
-                # or if you want to push to a specific remote branch.
-                # Example: origin.push(repo.head.reference)
-                push_infos = origin.push()
+                logger.debug(f"Attempting to push. Remote 'origin' details: {repo.remote(name='origin').url}")
+                origin = repo.remote(name="origin")
+                logger.debug(f"Executing origin.push() for branch {repo.head.reference.name}")
 
-                # Check push status
-                # push_infos is a list of PushInfo objects.
-                # A successful push usually has flags like PushInfo.UP_TO_DATE or PushInfo.FAST_FORWARD
-                # An error might have PushInfo.ERROR or PushInfo.REJECTED
-                # This is a basic check; more robust error handling might be needed.
-                if any(
-                    p.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)
-                    for p in push_infos
-                ):
-                    errors = [
-                        p.summary
-                        for p in push_infos
-                        if p.flags
-                        & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)
-                    ]
-                    push_message = (
-                        f" Commit successful, but push failed: {'; '.join(errors)}"
-                    )
-                    # Potentially return False here if push is critical
-                    # return False, f"Image '{relative_image_path}' committed, but push failed: {'; '.join(errors)}"
-                else:
-                    push_message = " and pushed successfully to remote."
+                # It's good to specify the refspec for clarity and to ensure you're pushing the current branch
+                # to its corresponding remote branch, or a specific one if needed.
+                # Example: repo.head.reference.name could be 'main'
+                # refspec = f"{repo.head.reference.name}:{repo.head.reference.name}"
+                # push_infos = origin.push(refspec=refspec)
+                push_infos = origin.push() # Using existing line for now
+
+                logger.debug(f"push_infos raw: {push_infos}")
+                
+                # Detailed check of push_infos
+                push_failed = False
+                error_summaries = []
+                for p_info in push_infos:
+                    logger.debug(f"PushInfo item: flags={p_info.flags}, summary='{p_info.summary}', error='{getattr(p_info, 'error', None)}'")
+                    if p_info.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED):
+                        push_failed = True
+                        error_summaries.append(p_info.summary)
+                    # You might want to check for other flags too, e.g., if it's not UP_TO_DATE or FAST_FORWARD
+                    # and not an error, what is it?
+
+                if push_failed:
+                    push_message = f" Commit successful, but push failed: {'; '.join(error_summaries)}"
+                    logger.error(f"Push failed. Summaries: {'; '.join(error_summaries)}")
+                elif not push_infos: # If push_infos is empty, it might indicate nothing was pushed or an issue
+                    push_message = " Commit successful, but push command returned no information (may indicate no changes to push or an issue)."
+                    logger.warning("origin.push() returned empty list. Push may not have occurred.")
+                else: # If not failed and not empty, assume success for now based on original logic
+                    all_ok = all(p_info.flags & (git.remote.PushInfo.UP_TO_DATE | git.remote.PushInfo.FAST_FORWARD | git.remote.PushInfo.NEW_TAG | git.remote.PushInfo.NEW_HEAD) for p_info in push_infos if not (p_info.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)))
+                    if all_ok and any(p_info.flags & (git.remote.PushInfo.FAST_FORWARD | git.remote.PushInfo.NEW_HEAD) for p_info in push_infos): # Check if something actually changed
+                        push_message = " and pushed successfully to remote."
+                        logger.info("Push successful.")
+                    elif all(p_info.flags & git.remote.PushInfo.UP_TO_DATE for p_info in push_infos):
+                         push_message = " and remote is already up-to-date."
+                         logger.info("Push successful (remote up-to-date).")
+                    else:
+                        push_message = f" Commit successful, but push status is unclear: {[(pi.flags, pi.summary) for pi in push_infos]}"
+                        logger.warning(f"Push status unclear. push_infos: {[(pi.flags, pi.summary) for pi in push_infos]}")
+
+
             except git.GitCommandError as e:
-                # This catches errors from the git command itself (e.g., remote not found, auth failure)
-                push_message = f" Commit successful, but push failed: {str(e)}"
-                # return False, f"Image '{relative_image_path}' committed, but push failed: {str(e)}"
+                push_message = f" Commit successful, but push failed with GitCommandError: {str(e)}"
+                logger.error(f"GitCommandError during push: command='{e.command}', status={e.status}, stderr='{e.stderr}', stdout='{e.stdout}'")
             except Exception as e:
-                # Catch other potential errors during push
                 push_message = f" Commit successful, but an unexpected error occurred during push: {str(e)}"
-                # return False, f"Image '{relative_image_path}' committed, but an unexpected error occurred during push: {str(e)}"
+                logger.error(f"Exception during push: {str(e)}", exc_info=True)
 
         return (
             True,

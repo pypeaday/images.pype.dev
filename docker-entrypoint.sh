@@ -51,7 +51,21 @@ fi
 
 # Attempt an SSH connection to GitHub to test keys and known_hosts
 echo "Attempting SSH connection to GitHub (ssh -T git@github.com)..."
-ssh -o StrictHostKeyChecking=yes -o BatchMode=yes -T git@github.com || echo "SSH connection test to git@github.com failed. Exit status: $?"
+set +e # Temporarily disable exit on error
+SSH_OUTPUT=$(ssh -o StrictHostKeyChecking=yes -o BatchMode=yes -T git@github.com 2>&1)
+SSH_EXIT_STATUS=$?
+set -e # Re-enable exit on error
+
+echo "SSH Test Output: $SSH_OUTPUT"
+echo "SSH Test Exit Status: $SSH_EXIT_STATUS"
+
+if [ $SSH_EXIT_STATUS -eq 1 ] && echo "$SSH_OUTPUT" | grep -q "successfully authenticated"; then
+  echo "SSH connection test to git@github.com SUCCEEDED (authenticated)."
+elif [ $SSH_EXIT_STATUS -eq 0 ]; then # Should not happen with -T and no shell
+    echo "SSH connection test to git@github.com SUCCEEDED (exit 0, unexpected for -T)."
+else
+  echo "SSH connection test to git@github.com FAILED. Exit status: $SSH_EXIT_STATUS"
+fi
 # StrictHostKeyChecking=yes will use known_hosts and fail if host key changed or not present.
 # BatchMode=yes prevents password prompts.
 
