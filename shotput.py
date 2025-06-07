@@ -1,7 +1,6 @@
 # /// script
-# requires-python = ">=3.13"
+# requires-python = ">=3.8"
 # dependencies = [
-#     "pyautogui",
 #     "fastapi",
 #     "uvicorn[standard]",
 #     "python-multipart",
@@ -11,8 +10,6 @@
 # ]
 # ///
 
-# ]
-# ///
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse, HTMLResponse, Response # Added HTMLResponse, Response
 from pathlib import Path
