@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "7999:8000"
+    volumes:
+      - .:/app
+    # env_file: .env
+    restart: unless-stopped
+    command: ["uv", "run", "app/shotput.py"]
