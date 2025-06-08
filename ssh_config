@@ -1,0 +1,5 @@
+host images-pype-dev-github.com
+  IdentityFile /home/appuser/.ssh/id_rsa
+  User pypeaday
+  IdentitiesOnly yes
+  HostName github.com
