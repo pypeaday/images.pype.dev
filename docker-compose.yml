@@ -6,6 +6,8 @@ services:
     volumes:
       - /home/nic/projects/personal/images.pype.dev:/app
       # This key file on your HOST must have permissions 600
+      # NOTE: If using SSH
+      # TODO: sshkey-gen and add to GitHub
       - ./id_rsa:/home/appuser/.ssh/id_rsa:ro
       # I have a special key for this app and so the remote host is set as
       # images-pype-dev-github.com so I bake in this ssh config for the key to

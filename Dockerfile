@@ -36,7 +36,8 @@ WORKDIR /app
 COPY --chown=appuser:appuser docker-entrypoint.sh /app/docker-entrypoint.sh
 RUN chmod +x /app/docker-entrypoint.sh
 # Copy the rest of the application files, ensuring appuser owns them
-COPY --chown=appuser:appuser . .
+# The repo should be volume mounted in at runtime - no point in building the media in
+# COPY --chown=appuser:appuser . .
 
 # Switch to non-root user
 USER appuser

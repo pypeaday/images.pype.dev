@@ -8,6 +8,12 @@ Image repo for [pype.dev](https://www.pype.dev)
 back a markdown link to serve the image up on the rendered post via
 statically.io through the github repo
 
+### Setup
+
+1. if using SSH then setup an ssh key with github and mount it into the container at `/home/appuser/.ssh/id_rsa:ro`
+2. update `ssh_config` if you have any host mappings to consider
+3. `docker compose up` to use docker, or `uv run app/shotput.py` to use uvicorn
+
 ### Configuration
 
 See [app/config.toml](./app/config.toml)
