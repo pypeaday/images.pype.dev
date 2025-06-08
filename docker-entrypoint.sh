@@ -14,6 +14,8 @@ SSH_DIR="$HOME/.ssh"
 PRIVATE_KEY_PATH="$SSH_DIR/id_rsa"
 KNOWN_HOSTS_PATH="$SSH_DIR/known_hosts"
 
+echo "Setting permissions for $PRIVATE_KEY_PATH to 600..."
+chmod 600 "$PRIVATE_KEY_PATH"
 echo "Listing $SSH_DIR contents:"
 ls -la "$SSH_DIR" || echo "$SSH_DIR not found or cannot be listed."
 
@@ -71,4 +73,5 @@ fi
 
 echo "--- Docker Entrypoint: Setup Complete, Executing Command ---"
 # Start the application (passed as arguments from docker-compose command)
-exec "$@"
+# exec "$@"
+uv run app/shotput.py
