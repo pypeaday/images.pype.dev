@@ -5,11 +5,11 @@ services:
       - "7999:8000"
     volumes:
       - /home/nic/projects/personal/images.pype.dev:/app
-      # Mount your SSH private key from host to container
-      # IMPORTANT: Replace '~/.skm/images-pype-dev' if this path is not exactly correct for your host.
-      # This key file on your HOST must have permissions 600 (e.g., chmod 600 ~/.skm/images-pype-dev)
+      # This key file on your HOST must have permissions 600
       - ./id_rsa:/home/appuser/.ssh/id_rsa:ro
+      # I have a special key for this app and so the remote host is set as
+      # images-pype-dev-github.com so I bake in this ssh config for the key to
+      # "just work" from the container
       - ./ssh_config:/home/appuser/.ssh/config:ro
     env_file: .env
     restart: unless-stopped
-    # command: ["uv", "run", "app/shotput.py"]

@@ -52,6 +52,7 @@ fi
 # Attempt an SSH connection to GitHub to test keys and known_hosts
 echo "Attempting SSH connection to GitHub (ssh -T git@github.com)..."
 set +e # Temporarily disable exit on error
+# Note the host is images-pype-dev-github.com which is from ssh_config
 SSH_OUTPUT=$(ssh -o StrictHostKeyChecking=yes -o BatchMode=yes -T git@images-pype-dev-github.com 2>&1)
 SSH_EXIT_STATUS=$?
 set -e # Re-enable exit on error
