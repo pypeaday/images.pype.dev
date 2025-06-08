@@ -14,8 +14,6 @@ SSH_DIR="$HOME/.ssh"
 PRIVATE_KEY_PATH="$SSH_DIR/id_rsa"
 KNOWN_HOSTS_PATH="$SSH_DIR/known_hosts"
 
-echo "Setting permissions for $PRIVATE_KEY_PATH to 600..."
-chmod 600 "$PRIVATE_KEY_PATH"
 echo "Listing $SSH_DIR contents:"
 ls -la "$SSH_DIR" || echo "$SSH_DIR not found or cannot be listed."
 
@@ -64,7 +62,7 @@ echo "SSH Test Exit Status: $SSH_EXIT_STATUS"
 if [ $SSH_EXIT_STATUS -eq 1 ] && echo "$SSH_OUTPUT" | grep -q "successfully authenticated"; then
   echo "SSH connection test to git@github.com SUCCEEDED (authenticated)."
 elif [ $SSH_EXIT_STATUS -eq 0 ]; then # Should not happen with -T and no shell
-    echo "SSH connection test to git@github.com SUCCEEDED (exit 0, unexpected for -T)."
+  echo "SSH connection test to git@github.com SUCCEEDED (exit 0, unexpected for -T)."
 else
   echo "SSH connection test to git@github.com FAILED. Exit status: $SSH_EXIT_STATUS"
 fi
