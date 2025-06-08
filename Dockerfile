@@ -38,6 +38,7 @@ RUN chmod +x /app/docker-entrypoint.sh
 # Copy the rest of the application files, ensuring appuser owns them
 # The repo should be volume mounted in at runtime - no point in building the media in
 # COPY --chown=appuser:appuser . .
+COPY --chown=appuser:appuser ssh_config /home/appuser/.ssh/config
 
 # Switch to non-root user
 USER appuser
