@@ -99,9 +99,9 @@ def commit_and_push_image(
                 # It's good to specify the refspec for clarity and to ensure you're pushing the current branch
                 # to its corresponding remote branch, or a specific one if needed.
                 # Example: repo.head.reference.name could be 'main'
-                # refspec = f"{repo.head.reference.name}:{repo.head.reference.name}"
-                # push_infos = origin.push(refspec=refspec)
-                push_infos = origin.push() # Using existing line for now
+                refspec = f"{repo.head.reference.name}:{repo.head.reference.name}"
+                logger.debug(f"Using refspec: {refspec}")
+                push_infos = origin.push(refspec=refspec)
 
                 logger.debug(f"push_infos raw: {push_infos}")
                 
@@ -655,7 +655,7 @@ async def upload_image(image_blob: UploadFile = File(...)):
                 status_code=400, detail="Invalid file type. Please upload an image."
             )
 
-        timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
         unique_id = uuid.uuid4().hex[:8]
 
         content_type_map = {
