@@ -28,13 +28,14 @@ import uvicorn  # Added uvicorn
 
 # Configure basic logging to output to stderr, which Docker captures
 logging.basicConfig(
-    level=logging.DEBUG, 
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.DEBUG,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.StreamHandler() # Ensures output to stderr
-    ]
+        logging.StreamHandler()  # Ensures output to stderr
+    ],
 )
 logger = logging.getLogger(__name__)
+
 
 def commit_and_push_image(
     repo_path: Path, image_file_path: Path, commit_message: str, auto_push: bool = False
@@ -92,9 +93,13 @@ def commit_and_push_image(
                 # Attempt to push to the default remote (usually 'origin') and current branch
                 # Ensure your environment is configured for passwordless push (e.g., SSH keys)
                 # or Git credential helper.
-                logger.debug(f"Attempting to push. Remote 'origin' details: {repo.remote(name='origin').url}")
+                logger.debug(
+                    f"Attempting to push. Remote 'origin' details: {repo.remote(name='origin').url}"
+                )
                 origin = repo.remote(name="origin")
-                logger.debug(f"Executing origin.push() for branch {repo.head.reference.name}")
+                logger.debug(
+                    f"Executing origin.push() for branch {repo.head.reference.name}"
+                )
 
                 # It's good to specify the refspec for clarity and to ensure you're pushing the current branch
                 # to its corresponding remote branch, or a specific one if needed.
@@ -104,13 +109,17 @@ def commit_and_push_image(
                 push_infos = origin.push(refspec=refspec)
 
                 logger.debug(f"push_infos raw: {push_infos}")
-                
+
                 # Detailed check of push_infos
                 push_failed = False
                 error_summaries = []
                 for p_info in push_infos:
-                    logger.debug(f"PushInfo item: flags={p_info.flags}, summary='{p_info.summary}', error='{getattr(p_info, 'error', None)}'")
-                    if p_info.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED):
+                    logger.debug(
+                        f"PushInfo item: flags={p_info.flags}, summary='{p_info.summary}', error='{getattr(p_info, 'error', None)}'"
+                    )
+                    if p_info.flags & (
+                        git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED
+                    ):
                         push_failed = True
                         error_summaries.append(p_info.summary)
                     # You might want to check for other flags too, e.g., if it's not UP_TO_DATE or FAST_FORWARD
@@ -118,26 +127,56 @@ def commit_and_push_image(
 
                 if push_failed:
                     push_message = f" Commit successful, but push failed: {'; '.join(error_summaries)}"
-                    logger.error(f"Push failed. Summaries: {'; '.join(error_summaries)}")
-                elif not push_infos: # If push_infos is empty, it might indicate nothing was pushed or an issue
+                    logger.error(
+                        f"Push failed. Summaries: {'; '.join(error_summaries)}"
+                    )
+                elif not push_infos:  # If push_infos is empty, it might indicate nothing was pushed or an issue
                     push_message = " Commit successful, but push command returned no information (may indicate no changes to push or an issue)."
-                    logger.warning("origin.push() returned empty list. Push may not have occurred.")
-                else: # If not failed and not empty, assume success for now based on original logic
-                    all_ok = all(p_info.flags & (git.remote.PushInfo.UP_TO_DATE | git.remote.PushInfo.FAST_FORWARD | git.remote.PushInfo.NEW_TAG | git.remote.PushInfo.NEW_HEAD) for p_info in push_infos if not (p_info.flags & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)))
-                    if all_ok and any(p_info.flags & (git.remote.PushInfo.FAST_FORWARD | git.remote.PushInfo.NEW_HEAD) for p_info in push_infos): # Check if something actually changed
+                    logger.warning(
+                        "origin.push() returned empty list. Push may not have occurred."
+                    )
+                else:  # If not failed and not empty, assume success for now based on original logic
+                    all_ok = all(
+                        p_info.flags
+                        & (
+                            git.remote.PushInfo.UP_TO_DATE
+                            | git.remote.PushInfo.FAST_FORWARD
+                            | git.remote.PushInfo.NEW_TAG
+                            | git.remote.PushInfo.NEW_HEAD
+                        )
+                        for p_info in push_infos
+                        if not (
+                            p_info.flags
+                            & (git.remote.PushInfo.ERROR | git.remote.PushInfo.REJECTED)
+                        )
+                    )
+                    if all_ok and any(
+                        p_info.flags
+                        & (
+                            git.remote.PushInfo.FAST_FORWARD
+                            | git.remote.PushInfo.NEW_HEAD
+                        )
+                        for p_info in push_infos
+                    ):  # Check if something actually changed
                         push_message = " and pushed successfully to remote."
                         logger.info("Push successful.")
-                    elif all(p_info.flags & git.remote.PushInfo.UP_TO_DATE for p_info in push_infos):
-                         push_message = " and remote is already up-to-date."
-                         logger.info("Push successful (remote up-to-date).")
+                    elif all(
+                        p_info.flags & git.remote.PushInfo.UP_TO_DATE
+                        for p_info in push_infos
+                    ):
+                        push_message = " and remote is already up-to-date."
+                        logger.info("Push successful (remote up-to-date).")
                     else:
                         push_message = f" Commit successful, but push status is unclear: {[(pi.flags, pi.summary) for pi in push_infos]}"
-                        logger.warning(f"Push status unclear. push_infos: {[(pi.flags, pi.summary) for pi in push_infos]}")
-
+                        logger.warning(
+                            f"Push status unclear. push_infos: {[(pi.flags, pi.summary) for pi in push_infos]}"
+                        )
 
             except git.GitCommandError as e:
                 push_message = f" Commit successful, but push failed with GitCommandError: {str(e)}"
-                logger.error(f"GitCommandError during push: command='{e.command}', status={e.status}, stderr='{e.stderr}', stdout='{e.stdout}'")
+                logger.error(
+                    f"GitCommandError during push: command='{e.command}', status={e.status}, stderr='{e.stderr}', stdout='{e.stdout}'"
+                )
             except Exception as e:
                 push_message = f" Commit successful, but an unexpected error occurred during push: {str(e)}"
                 logger.error(f"Exception during push: {str(e)}", exc_info=True)
@@ -261,7 +300,7 @@ INDEX_HTML_CONTENT = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="icon" href="https://icons.getbootstrap.com/assets/icons/cloud-upload.svg" type="image/svg+xml">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2366ccff'><path d='M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z'/><path d='M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z'/></svg>" type="image/svg+xml">
     <title>Shotput - Put your screenshots wherever you want</title>
     <style>
         body {
@@ -387,6 +426,29 @@ INDEX_HTML_CONTENT = """
         #copyButton.copied:hover {
             background-color: #4cae4c;
         }
+        .copy-link-btn {
+            background-color: #66ccff;
+            color: #0f0c29;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 8px;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .copy-link-btn:hover {
+            background-color: #99ddff;
+            transform: translateY(-1px);
+        }
+        .copy-link-btn.copied {
+            background-color: #5cb85c;
+            color: white;
+        }
+        .copy-link-btn.copied:hover {
+            background-color: #4cae4c;
+        }
         .status-message {
             margin-top: 20px;
             font-size: 0.95em;
@@ -427,9 +489,8 @@ INDEX_HTML_CONTENT = """
         <input type="file" id="fileInput" accept="image/*" style="display:none;">
         <div class="loader" id="loader"></div>
         <div id="result" class="result-container" style="display:none;">
-            <p><strong>CDN Link:</strong> <a id="cdnLink" href="#" target="_blank"></a></p>
-            <p><strong>Markdown:</strong> <code id="markdownLink"></code></p>
-            <button id="copyButton">Copy Markdown</button>
+            <p><strong>CDN Link:</strong> <a id="cdnLink" href="#" target="_blank"></a> <button id="copyCdnButton" class="copy-link-btn">Copy</button></p>
+            <p><strong>Markdown:</strong> <code id="markdownLink"></code> <button id="copyMarkdownButton" class="copy-link-btn">Copy</button></p>
         </div>
         <div id="statusMessage" class="status-message"></div>
     </div>
@@ -448,7 +509,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDiv = document.getElementById('result');
     const cdnLink = document.getElementById('cdnLink');
     const markdownLink = document.getElementById('markdownLink');
-    const copyButton = document.getElementById('copyButton');
+    const copyCdnButton = document.getElementById('copyCdnButton');
+    const copyMarkdownButton = document.getElementById('copyMarkdownButton');
     const statusMessage = document.getElementById('statusMessage');
     const loader = document.getElementById('loader');
 
@@ -547,8 +609,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 markdownLink.textContent = markdown;
                 resultDiv.style.display = 'block';
                 showStatus('Image uploaded successfully!', false);
-                copyButton.textContent = 'Copy Markdown';
-                copyButton.classList.remove('copied');
+                copyCdnButton.textContent = 'Copy';
+                copyCdnButton.classList.remove('copied');
+                copyMarkdownButton.textContent = 'Copy';
+                copyMarkdownButton.classList.remove('copied');
             } else {
                 const errorData = await response.json();
                 showStatus(`Error: ${errorData.detail || response.statusText}`, true);
@@ -565,14 +629,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    copyButton.addEventListener('click', () => {
+    copyCdnButton.addEventListener('click', () => {
+        navigator.clipboard.writeText(cdnLink.href)
+            .then(() => {
+                copyCdnButton.textContent = 'Copied!';
+                copyCdnButton.classList.add('copied');
+                setTimeout(() => {
+                    copyCdnButton.textContent = 'Copy';
+                    copyCdnButton.classList.remove('copied');
+                }, 2000);
+            })
+            .catch(err => {
+                showStatus('Failed to copy CDN link.', true);
+                console.error('Failed to copy: ', err);
+            });
+    });
+
+    copyMarkdownButton.addEventListener('click', () => {
         navigator.clipboard.writeText(markdownLink.textContent)
             .then(() => {
-                copyButton.textContent = 'Copied!';
-                copyButton.classList.add('copied');
+                copyMarkdownButton.textContent = 'Copied!';
+                copyMarkdownButton.classList.add('copied');
                 setTimeout(() => {
-                    copyButton.textContent = 'Copy Markdown';
-                    copyButton.classList.remove('copied');
+                    copyMarkdownButton.textContent = 'Copy';
+                    copyMarkdownButton.classList.remove('copied');
                 }, 2000);
             })
             .catch(err => {
@@ -766,4 +846,3 @@ if __name__ == "__main__":
         print("--- END CONFIGURATION NOTICE ---\n")
 
     uvicorn.run(app, host="0.0.0.0", port=APP_PORT, log_level="info")
-
