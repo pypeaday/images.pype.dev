@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film illustration of a serene olive grove at sunrise, with an open door and a subtle light spilling out, symbolizing spiritual growth and seeking first the kingdom of God, set against a warm beige background with teal accents in the foliage and amber hues on the ground, including a small
+
+Negative prompt: portrait, close-up, text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

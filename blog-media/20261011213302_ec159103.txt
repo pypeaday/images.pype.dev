@@ -1,0 +1,4 @@
+calm, illustrative scene of a single tree or branch with olivet branches in soft focus, under a warm, golden amber-lit sky, subtle hints of ancient stone or wooden textures in the background, muted greens and creams with mint accents, gentle foliage sways in the breeze.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

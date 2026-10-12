@@ -1,0 +1,4 @@
+modisn disney, whimsical animated-film illustration of a stylized, modern Jerusalem church building with warm amber lighting, surrounded by lush greenery and scenic landscape, small figures of people or animals in the distance, rich teal accents, 60fps animation frame, establishing wide shot, symbolic architecture representing faith, olivet faith themes.
+
+Negative prompt: portrait, close-up, text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]
