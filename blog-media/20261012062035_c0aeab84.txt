@@ -1,0 +1,4 @@
+Calm, illustrative scene of a serene landscape with a single olive tree (olivet) in the center, surrounded by soft, gentle brushstrokes, with warm, muted tones featuring mint and amber hues, peaceful atmosphere evoking stillness and contemplation, subtle natural light casting long shadows, minimalist composition with emphasis on the olivet's rustic simplicity.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

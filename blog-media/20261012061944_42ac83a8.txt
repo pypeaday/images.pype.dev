@@ -1,0 +1,4 @@
+modisn disney, whimsical animated-film illustration of a serene olivet landscape with an old, wise-looking James standing in front of the church, symbolizing the perfect wholehearted devotion to Jesus, expressive lighting highlighting the teal and amber hues, warm rich palette, wide establishing shot where architecture and landscape dominate the frame.
+
+Negative prompt: portrait, close-up, text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

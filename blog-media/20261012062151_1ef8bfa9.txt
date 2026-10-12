@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dimly lit, ruined, and fragmented church faade with cracks, broken columns, and worn-out stone, symbolizing imperfection, amidst misty, mystical, amber-lit sky with subtle mint hues, conveying wisdom, wholeness, and divine guidance, surrounded by lush overgrown vegetation, as if nature is reclaiming the abandoned structure., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

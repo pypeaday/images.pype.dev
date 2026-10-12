@@ -1,0 +1,4 @@
+Calm, illustrative scene of a quiet, peaceful olive grove under soft natural light, gentle composition, muted palette featuring prominent mint and amber hues, solitary olive tree in the center, subtle hints of faith and spirituality in the atmosphere.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

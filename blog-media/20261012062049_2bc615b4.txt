@@ -1,0 +1,4 @@
+A serene, mystical olivet tree stands alone in a peaceful landscape, bathed in warm, soft natural light, under a clear blue sky with a few wispy clouds, surrounded by gentle, rolling hills with subtle hints of mint and amber hues, evoking a sense of calm contemplation and reverence for the faith.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]
