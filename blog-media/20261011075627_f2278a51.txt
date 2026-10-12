@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film style illustration of a joyful woman (representing Chara-Joy) surrounded by flowers, vines, and lanterns, with a warm golden light pouring from above, adorned with tea cups and wine glasses, surrounded by animals such as birds, rabbits, and deer, symbolic of the psalmist's "good bottle of wine" and Jeremiah's "weddings", set against a backdrop of a blooming garden, with a subtle hint of shadows and depth to convey a sense of comfort and deliverance., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

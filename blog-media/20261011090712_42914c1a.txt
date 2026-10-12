@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, ancient library amidst swirling misty fog, with glowing lanterns and intricate carvings on stone walls, surrounded by overgrown vines and twisted tree roots, warm amber light spilling from between cracks, subtle mint undertones in the fading air, weathered wooden panels, mysterious symbols etched into the fabric of reality, whispering shadows on the walls., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

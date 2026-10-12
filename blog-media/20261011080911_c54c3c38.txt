@@ -1,0 +1,4 @@
+A 16:9 widescreen image of a darkened, misty forest at dusk, with an ancient, gnarled tree in the center, its branches reaching up towards a crescent moon, surrounded by a subtle shimmering aura, with a faint, glowing light emanating from the trunk, and a few strategically placed, atmospheric fog effects., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

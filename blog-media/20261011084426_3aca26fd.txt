@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a desolate, moonlit cityscape at dusk, with a lone, glowing, metallic structure rising from the center, surrounded by twisted, organic metal tendrils, reflecting a faint, ethereal light amidst a swirling vortex of dark blues and greys, subtle mint hues peeking through cracks in the architecture, warm amber tones emanating from within the structure, wide panoramic banner framing the scene., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

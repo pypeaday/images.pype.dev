@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned, industrial landscape with a lone, glowing forge in the distance, surrounded by twisted, metallic, tree-like structures, symbolizing creative expression amidst decay and transformation, soft, amber hues with subtle mint accents, atmospheric fog, warm, golden lighting, panoramic banner, overcast sky with faint, wispy clouds., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

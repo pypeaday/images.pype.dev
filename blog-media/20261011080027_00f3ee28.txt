@@ -1,0 +1,4 @@
+modisn disney, Whimsical, animated-film inspired illustration of a forest landscape at dusk, teeming with symbolic creatures and plants representing humanity's state in The Fall, contrasted with a radiant sunrise on the horizon signifying hope and redemption, glowing teal and amber hues illuminating the scene, surrounded by lush greenery and vibrant flowers, expressive lighting casting warm shadows, characters and animals subtly woven into the foliage to convey the post's message., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

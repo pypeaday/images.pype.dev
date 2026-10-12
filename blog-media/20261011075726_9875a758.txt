@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film illustrated depiction of a beam in the eye, alongside a speck in the eye, both shining brightly against a warm background, with teal accents representing wisdom and amber representing guidance, featuring a gentle, fatherly figure offering a beam to his child, surrounded by symbolic elements such as an open door, a knocked-on wood block, and a subtle, shimmering aura of light radiating from the speaker's eyes., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

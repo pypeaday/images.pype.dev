@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film-inspired, Divine Council member in a mystical realm, surrounded by symbols of spiritual authority, with a subtle nod to Michael Heiser's work, infused with warm amber and teal hues, as a gentle, winged creature peers into a shimmering portal representing submission to Jesus' authority., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

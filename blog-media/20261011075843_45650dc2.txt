@@ -1,0 +1,4 @@
+modisn disney, Whimsical, animated-film inspired illustration of a massive ark floating on water, surrounded by animals and people, with a majestic rainbow stretching across the sky, set against a rich warm background with teal and amber accents, expressive lightning illuminating the scene, with symbolic visual metaphors for judgment and destruction in the shadows., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

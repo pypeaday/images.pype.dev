@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty, abandoned library at dusk, symbolic bookshelves holding up a door with a nameplate reading "www-data", soft mint glow emanating from beneath the door, warm amber light seeping through cracks and crevices, vast empty space behind the door, faint outline of a computer screen in the background, subtle hints of nextcloud's file system structure in the bookshelves' architecture., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

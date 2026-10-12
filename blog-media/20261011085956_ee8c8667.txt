@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty, abandoned docker container facility at dusk, symbolic representation of system ownership and access control as swirling, ethereal clouds of mint and amber mist surround a lone, glowing lighthouse beacon on a deserted docked ship in the harbor, wide panoramic banner with subtle reflections of the surrounding landscape., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

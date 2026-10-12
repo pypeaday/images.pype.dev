@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark, atmospheric landscape with a wide panoramic banner featuring a stylized, symbolic representation of a spell-checking interface in Vim, set against a subtle mint and amber color palette, with subtle hints of light and weather effects., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

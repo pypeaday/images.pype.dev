@@ -1,0 +1,4 @@
+modisn disney, A woman in a flowing white gown stands on a hillside with a gentle glow surrounding her, she has her hands clasped together in prayer, a dove perches on her right shoulder, children and animals of various kinds frolic at her feet, a warm sunset glows behind her, as if heaven is descending upon the earth., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

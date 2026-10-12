@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mist-shrouded, medieval-inspired cityscape at dusk, with worn stone walls, Gothic arches, and ancient trees in the foreground, surrounded by a halo of warm amber light, subtle mint hues on the horizon, weathered wooden doors, rusty iron railings, overgrown vines, fog rolling in, and a sense of forgotten knowledge, abandoned grandeur., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

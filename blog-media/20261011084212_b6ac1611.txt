@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, mist-shrouded Great Wolf Lodge at dusk, its wooden facade and chimneys glowing warmly in soft amber light, as if infused with an ethereal energy, set against a dark canvas with subtle mint accents amidst swirling clouds and wispy tendrils of fog, evoking the timeless journey of tracking lifetime discounts on margarita refills., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

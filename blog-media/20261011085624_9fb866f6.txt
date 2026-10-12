@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned, overgrown data center at dusk, with towering server racks, tangled network cables, and shattered glass windows, set amidst a swirling vortex of swirling blue and purple aurora borealis lights, subtle mint accents in broken machinery, and warm amber hues emanating from flickering fluorescent tubes., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

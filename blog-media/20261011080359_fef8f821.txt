@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film inspired, symbolic, yet vibrant illustration of a serene morning landscape with dew-kissed flowers and trees, a rising sun peeking through the horizon, casting warm golden light, teal and amber hues blended in harmony, an unseen figure or animal (perhaps a bird) perched on a branch, radiating joy and peacefulness., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

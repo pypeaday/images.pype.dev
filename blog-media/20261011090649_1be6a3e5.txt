@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a lone, flickering lantern suspended above a darkened, fog-shrouded, deserted cityscape with a faint, glowing moon in the sky, set amidst a maze of crumbling stone archways and weathered, mint-green wooden doors, as if beckoning to a peaceful restart, with subtle amber hues casting long shadows across the cobblestone streets., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

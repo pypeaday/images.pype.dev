@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a crumbling, industrial metropolis at dusk, with rusting pipes and machinery silhouetted against a dark blue sky, a lone, abandoned clock tower piercing the clouds, lit by a faint, ethereal glow, surrounded by a halo of soft, white mist, the cityscape shrouded in a thick, grey haze, with subtle hints of mint green and amber, a crescent moon rising over the rooftops, casting an eerie light on the desolate landscape., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

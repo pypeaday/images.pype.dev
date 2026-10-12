@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, abandoned library with crumbling stone walls, overgrown with vines and moss, surrounded by a dense, misty forest at dusk, with soft amber lighting, subtle mint hues in the fog, weathered wooden bookshelves, broken lanterns, and scattered papers, set against a dark muted sky with a crescent moon, reflecting off the water's surface of a serene, still lake., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

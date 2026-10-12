@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film style illustration of a serene, idyllic landscape with rolling hills, a vast expanse of blue sky, and lush greenery, symbolizing eternal rest and connection with God, where a woman sits on a rock, surrounded by nature, with a few birds and flowers, under a warm sunset glow, with soft teal and amber accents, and a subtle hint of a crucifix in the background., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

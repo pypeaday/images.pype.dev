@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of a young man standing in front of an open Bible, surrounded by symbolic elements such as a sprouting fig tree, a ark, and an hourglass, with warm golden light shining down on him, rich teal and amber hues dominating the palette, animals (e.g. birds, fish) subtly integrated into the scene to reinforce the theme of spiritual growth and preparation for the unknown., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

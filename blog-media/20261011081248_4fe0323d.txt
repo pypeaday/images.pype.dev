@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dreamlike, abandoned carnival at dusk with rickety wooden Ferris wheel and twisted, overgrown funhouse mirrors set against a dark, stormy sky with subtle mint and amber hues, warm golden light spilling from broken lanterns amidst scattered toys and discarded balloons., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

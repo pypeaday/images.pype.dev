@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a sprawling, mist-shrouded, ancient library with crumbling stone walls, twisted vines, and overgrown trees, symbolizing the exploitation of knowledge systems, dimly lit by soft, warm amber lanterns casting long shadows on the floor, subtle mint hues reflected in the glass surfaces, mysterious symbols etched into the walls, a vast expanse of starry night sky visible through the library's vaulted ceiling., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

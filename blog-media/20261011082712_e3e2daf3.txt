@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a mystical, ancient, ruined castle at dusk with misty mountains in the background, symbolic structure resembling a lantern with subtle mint and amber accents, atmospheric lighting casting long shadows, dark muted palette with hints of weathered stone, wide panoramic banner spanning the horizon, eerie fog swirling around the castle's towers., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

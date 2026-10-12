@@ -1,0 +1,4 @@
+modisn disney, A weary saint standing under a stormy sky with a harp tangled in thorny willows, surrounded by scattered wormwood, with a faint reflection of a sunny day in the distance, symbolizing hope and faith in the midst of trial and imperfection., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

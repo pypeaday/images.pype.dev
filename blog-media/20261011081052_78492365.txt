@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark, misty, abandoned library with old bookshelves, a lone reading lamp casting warm amber light on dusty tomes, a subtle hint of mint green glowing softly from an old computer terminal in the background, symbolic structure resembling a stylized GPU card rising out of the fog like a phoenix, atmospheric lighting evoking a sense of transcoding and smooth playback, wide panoramic banner spanning the entire scene., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

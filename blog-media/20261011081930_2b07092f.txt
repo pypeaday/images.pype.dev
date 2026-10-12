@@ -1,0 +1,4 @@
+abstract cinematic matte painting, a sprawling, mist-shrouded cityscape at dusk, with worn stone archways, forgotten statues, and twisted, organic growths, punctuated by hints of mint-green moss and amber-glowing lanterns, set against a dark, turbulent sky with swirling storm clouds, weathered wooden shutters, and overgrown vines., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

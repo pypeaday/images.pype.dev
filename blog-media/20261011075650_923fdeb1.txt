@@ -1,0 +1,4 @@
+modisn disney, Animated film illustration of a woman embracing a child with a garden in the background, surrounded by Hebrew scrolls and books with flowers blooming through the cracks, as a lion and an eagle symbolize the "how to love" concept, with warm golden light shining down on the scene, teal accents in the flowers and a hint of amber in the sunset., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a futuristic, abandoned research facility at dusk, with eerie fog rolling in, surrounded by a vast, mist-shrouded valley, where glowing orbs and lanterns line the crumbling walls and pathways, symbolizing an ethereal assistant guiding through life's challenges, under an atmospheric lighting scheme emphasizing warm amber tones, with subtle mint accents hinting at innovation and clarity, set against a wide panoramic banner., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

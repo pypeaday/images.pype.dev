@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned cityscape at dusk, with crumbling stone archways, overgrown vines, and weathered statues against a dark blue-purple sky, warm amber hues emanating from lanterns and torches, subtle mint-green mist swirling around the structures, a lone, winding road disappearing into the distance, fog rolling in off the horizon, with an atmospheric, ethereal quality that conveys introspection and contemplation., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

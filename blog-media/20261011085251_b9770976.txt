@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dystopian cityscape at dusk with AI-powered skyscrapers in the background, eerie misty fog rolling in, abandoned streetlights flickering, dark muted palette with subtle mint and amber accents, wide panoramic banner of a futuristic cityscape with a single, isolated alleyway leading to a glowing, ethereal portal, abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

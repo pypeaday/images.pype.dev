@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, dark desert landscape at dusk, symbolizing the expansion of digital presence into the physical realm, with a lone tree standing as a beacon of domain ownership, its branches etched against a blood orange sky, while subtle mint and amber hues bleed through the sandy dunes like whispers of innovation, atmospheric lighting casting long shadows, a crescent moon rising high in the pantheon above., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

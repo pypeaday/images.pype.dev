@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, mist-shrouded, industrial container terminal at dusk, surrounded by waves crashing against rocky shores, with towering, metallic silos and crates strewn about like scattered puzzle pieces, soft mint-hued fog rolling in from the ocean, subtle amber glow emanating from the stacks, atmospheric lighting casting long shadows across the deserted landscape, weathered wooden docks worn smooth by time and sea spray., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a futuristic, dimly lit computer room with sleek lines and metallic accents, surrounded by swirling clouds of code and data, with subtle mint and amber hues, wide panoramic banner stretching across the screen, showcasing a Streamlit dashboard on the left and a Plotly live chart of system memory usage on the right, both updating in real-time, amidst a haze of misty atmospheric lighting., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

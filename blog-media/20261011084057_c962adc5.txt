@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a desolate, misty forest landscape at dusk with ancient, weathered wooden signs creaking in the wind, symbolizing growth, struggle, and transformation amidst the darkness, with subtle mint and amber hues, wide panoramic banner dominating the sky, eerie atmospheric lighting casting long shadows., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

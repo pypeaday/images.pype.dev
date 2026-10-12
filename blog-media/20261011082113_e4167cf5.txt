@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, moonlit forest with a subtle mint glow on ancient stone arches, atmospheric lightning illuminating the silhouettes of gnarled tree branches, dark muted palette with amber accents on the horizon, symbolic structure resembling an infinity loop in the foreground, overcast sky with wispy clouds, weathered wooden door slightly ajar., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

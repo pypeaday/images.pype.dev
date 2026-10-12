@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of Mary Magdalene and Jesus appearing to her at the empty tomb, surrounded by symbolic flowers, warm golden light, rich teal and amber hues, tender animals (like doves or lambs) peeking from behind the stone, expressive halos on characters, subtle animations of faith symbols in nature., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

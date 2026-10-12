@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a sprawling, mist-shrouded, ancient cityscape at dusk, with crumbling stone arches, overgrown with vines, surrounded by rolling hills and dark skies, symbolizing the idea of self-hosting and taking control, with subtle mint and amber hues in the fading light, and a wide panoramic banner that fills the entire image., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

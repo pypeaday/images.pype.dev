@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty, abandoned repository, old filing cabinets and dusty shelves overflowing with files, surrounded by a maze of metal pipes and conduits, symbolizing the unseen uses of the filesystem, with a faint glow of LED lights and soft illumination from lanterns in the background, subtle hints of mint and amber tones integrated into the overall dark muted palette., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

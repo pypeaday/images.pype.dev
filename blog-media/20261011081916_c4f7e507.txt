@@ -1,0 +1,4 @@
+Astrophotography-style, symbolic, matte-painted, panoramic banner of a mystical, abandoned library at dusk, with warm amber and soft mint hues, set against a dark, starry night sky, and subtly incorporating a lone, glowing lantern amidst the treetops., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

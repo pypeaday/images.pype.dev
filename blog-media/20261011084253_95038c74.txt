@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, moonlit Pilgrims Creek at dusk, symbolic bridge spanning creek with lanterns reflecting on rippling water, Gothic-style church steeple rising from forest, subtle mint and amber hues casting an ethereal glow, soft fog rolling in to obscure distant hills, atmospheric lighting evoking a sense of peaceful contemplation., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty, abandoned library at dusk with a massive, ornate mirror reflecting a celestial map, surrounded by crumbling stone walls, overgrown vegetation, and subtle hints of mint and amber hues in the fading light, evoking mystery, introspection, and contemplation., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

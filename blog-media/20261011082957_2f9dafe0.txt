@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty basement with a lone shelf/bracket supporting a camera, surrounded by GB pieces scattered across the floor in a chaotic pattern, with subtle mint and amber accents evoking a sense of decay and forgotten memories, set against a wide panoramic landscape of overcast skies and eerie fog rolling in., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

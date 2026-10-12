@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark mist-shrouded, abandoned industrial facility's façade at dusk, with subtle mint and amber hues, set against a wide panoramic backdrop of a barren, windswept landscape, featuring a lone, rusted, cylindrical antenna rising from the ground like a skeletal sentinel, surrounded by weathered, metallic silhouettes of old equipment, amidst a veil of eerie, flickering lanterns., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

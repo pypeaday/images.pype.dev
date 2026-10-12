@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned warehouse at dusk, with twisted, metallic clockwork machinery, flickering lanterns, and a subtle, glowing aura surrounding a central, crystal-like structure, set against a dark, gradient blue sky with wispy, white clouds and a hint of mint-green, overcast weather, amidst a sprawling, industrial landscape with a blend of ancient, worn stone and modern, metallic architecture., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

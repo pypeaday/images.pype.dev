@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of a glowing Tree of Life in a lush garden, surrounded by mythical creatures, symbolic branches that morph into vines and leaves, expressive warm lighting with teal accents, rich amber tones, subtle hints of ancient stones and temple architecture, figures of Adam and Eve, Moses, and Jesus subtly integrated into the tree's design, all set against a vibrant sunset background., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

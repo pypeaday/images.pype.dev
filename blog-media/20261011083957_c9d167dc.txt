@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mist-shrouded, abandoned homelab at dusk, surrounded by overgrown foliage, with weathered server racks and cables, and a subtle mint glow emanating from within, set against a dark, foreboding landscape, reminiscent of a forgotten library or a mystical, underwater realm, with amber hues casting an otherworldly light., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

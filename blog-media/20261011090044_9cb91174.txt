@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a desolate, mist-shrouded landscape with crumbling stone walls and twisted, gnarled tree roots stretching towards a crescent moon rising behind a veil of 10-bit video decay, rendered in 8-bit yuv420p, with subtle mint and amber hues bleeding into the dark, muted palette, atmospheric lighting casting long shadows across the barren terrain, symbolic structures like old clock towers and rusted machinery scattered throughout., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

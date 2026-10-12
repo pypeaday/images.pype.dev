@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a darkened, misty forest landscape at dusk, with a lone Traegar smoker as a central, symbolically glowing focal point amidst twisted tree trunks and overgrown foliage, dimly lit to evoke a sense of warmth and nostalgia, with subtle mint and amber hues scattered throughout the scene, conveying a feeling of comfort and tradition., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

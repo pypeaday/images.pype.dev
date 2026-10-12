@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film style image of a star shining brightly in a dark and crooked cityscape, surrounded by people's faces resembling puzzle pieces that slowly come together to form a cohesive whole, with a warm light radiating from within, symbolizing hope and redemption, animals (such as birds or rabbits) peeking out from the cracks in the pavement., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

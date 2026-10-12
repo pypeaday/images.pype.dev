@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film inspired illustration of a wealthy merchant (Mammon) being consumed by his own wealth, with gold coins and treasures surrounding him, as he's sucked into a vortex of greed and loss of control, set against a warm golden light background with teal accents, accompanied by a subtle image of Jesus Christ in the distance, watching over the scene., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

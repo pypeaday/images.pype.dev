@@ -1,0 +1,4 @@
+modisn disney, God stands in the divine assembly, Psalm 82, Ephesians 1:15-22, majestic throne room scene, zealous divine figure, judgment seat, radiant light, swirling vortex of justice, celestial bodies and animals gathered around, warm golden hues, rich teal accents, amber glow on face, powerful stance, arms outstretched, dramatic lighting, heroic expression., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

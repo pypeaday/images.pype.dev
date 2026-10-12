@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a desolate, mist-shrouded, abandoned library with crumbling stone walls, overgrown with vines and moss, surrounded by an eternal, solar eclipse-like sunset with hues of amber, mint, and deep indigo, atmospheric lighting casting long shadows, a lone, glowing lantern hovering above the central staircase, symbolizing knowledge and illumination amidst decay., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

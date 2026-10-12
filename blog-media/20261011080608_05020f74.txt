@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film inspired illustration of a wise Jacob (James) standing in front of a cross with a teal and amber glowing aura, surrounded by symbolic objects representing wisdom (e.g., an open book, a lamp, a scale), with a subtle animation of speech bubbles containing biblical quotes, while a small group of animals (e.g., doves, lions, eagles) gather around him in reverence., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

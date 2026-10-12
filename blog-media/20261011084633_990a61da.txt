@@ -1,0 +1,4 @@
+a dark, misty, abandoned server room with a lone kvm standing in front of it, surrounded by fog, warm golden light spilling from the kvm's screen, a subtle mint accent in the form of a small LED glow on the kvm's casing, an ethereal, atmospheric lighting effect evoking a sense of longing and connection, a wide panoramic view of the server room with the kvm as the focal point., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

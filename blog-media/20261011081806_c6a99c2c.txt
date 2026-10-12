@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, abandoned library with tattered books and dusty tomes, surrounded by a misty, moonlit forest, with twisted tree branches and gnarled roots stretching up towards the sky, soft, ethereal lighting illuminating the space, subtle mint and amber hues cast across the walls and floor, panoramic view from above., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+modisn disney, Whimsical, animated-film style illustration of a majestic tree or a blooming flower with its roots sinking deep into the earth, representing the anchor of grace and honor, surrounded by fluttering birds and leaves symbolizing the weight of glory (kabod), with warm light filtering through the canopy, teal accents for the heavens, amber hues for the earth, a small figure of a person kneeling in devotion at the base of the tree, animals such as deer or rabbits present in the illustration., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

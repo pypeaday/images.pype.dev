@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark, misty, abandoned library with crumbling stone walls, overgrown vegetation, and broken bookshelves, warm amber lighting casting an eerie glow on old tomes, scattered pages and parchments blowing in gentle breeze, subtle mint undertones amidst the decay, faint symbols etched into wooden beams, weathered lantern hanging from a railed gallery, clouds outside mirrored in rippling water pool beneath the library's facade., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a mystical, abandoned library at dusk with a large, glowing mirror on the wall reflecting a whispering fog, surrounded by tall, dark trees with roots that resemble gears and cogs, misty rain pouring down, soft golden light filtering through stained glass windows, subtle mint and amber accents, wide panoramic banner., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

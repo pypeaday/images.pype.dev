@@ -1,0 +1,4 @@
+modisn disney, Premarital Session 1 - Feb 2026: Whimsical animated-film illustration of a beautifully hand-drawn pair of humans (representing man and woman) emerging from a single rib-like stem, adorned with lush greenery and vines, surrounded by fluttering birds and wild animals, with warm golden light illuminating the scene, and soft teal and amber hues dominating the color palette., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

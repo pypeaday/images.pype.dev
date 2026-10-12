@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a snow-covered mountain range at dusk, symbolizing the turmoil of external dependencies on Snowflake pipelines, with subtle mint accents representing renewal and growth amidst dark muted palette and amber tones evoking a sense of stability, wide panoramic banner stretching across the sky, illuminated by soft golden light casting long shadows., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

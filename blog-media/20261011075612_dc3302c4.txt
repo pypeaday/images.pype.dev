@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated dragon with an outstretched arm, symbolizing temptation, set amidst a swirling sea of fiery coals, with a subtle crown or armor on its head, and in the background a stylized, glowing Leviathan rising from the depths, illuminated by warm amber and teal hues., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

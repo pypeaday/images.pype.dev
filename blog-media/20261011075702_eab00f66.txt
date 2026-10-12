@@ -1,0 +1,4 @@
+modisn disney, A serene, animated depiction of a figure standing on a mountain, surrounded by swirling winds and rain, symbolizing survival through faith in Jesus, with Noah's ark in the background, a rock foundation beneath their feet, and a warm, golden light illuminating the scene, amidst lush greenery and colorful flowers blooming around them., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

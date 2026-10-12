@@ -1,0 +1,4 @@
+modisn disney, A serene, whimsical forest scene where a beautiful woman, representing Eve, stands before a majestic tree adorned with fruit, its branches reaching towards the sky like arms open to temptation, as a serpent winds around her leg, symbolizing the seductive nature of sin, while a gentle, golden light shines upon her face, representing the guidance of God, and in the background, a subtle illustration of a kingdom with no clear ruler, hinting at the chaos that ensues when individuals follow their own desires rather than divine wisdom., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

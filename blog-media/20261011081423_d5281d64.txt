@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dystopian cityscape at dusk, sprawling metropolis shrouded in a perpetual haze of pollution, crumbling skyscrapers pierce the grey sky, their facades cracked and overgrown with vines, a lone streetlamp casts an eerie amber glow on the deserted streets, subtle hints of mint-green mist swirling around the buildings, atmospheric lighting evokes a sense of decay and neglect., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

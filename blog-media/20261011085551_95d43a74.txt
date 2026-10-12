@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a lone, weathered tree standing in front of a vast, mist-shrouded, abandoned warehouse at dusk, its branches tangled with old, rusty pipes and containers, surrounded by a sea of dark, muted stone walls with subtle mint-colored accents on the rusty gates, with amber-hued lanterns casting an eerie glow., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

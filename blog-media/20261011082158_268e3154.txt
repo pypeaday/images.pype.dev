@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned library at dawn with glowing lanterns in the background, overlooking a dark forest with twisted tree branches resembling pen nibs, surrounded by swirling clouds of ink, reflecting onto a serene, still lake with ripples forming into scribbled notes on the water's surface., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

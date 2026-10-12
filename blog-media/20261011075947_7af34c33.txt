@@ -1,0 +1,4 @@
+modisn disney, Whimsical, animated-film style illustration of a stormy sea calming down to reveal an open window to heaven, with Jesus standing at the door, surrounded by symbolic elements like lotus flowers, palm trees, and a glowing orb, featuring animals such as rabbits and birds in harmony, expressive lighting with warm golden hues, rich palette with teal and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

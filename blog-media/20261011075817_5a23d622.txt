@@ -1,0 +1,4 @@
+modisn disney, A cyclical pattern of Genesis 1-11, a non-created world in chaos with darkness and deep, God's spirit hovering over unordered wild and waste, light separating from darkness on day one, a vaulted dome separating waters on day two, a whimsical animated-film illustration style, symbolic visual metaphor, expressive lighting, rich warm palette with teal and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a darkened, misty Florida landscape at sunset, a lone palm tree surrounded by scattered notes on the ground, a worn-out suitcase leaning against a wooden fence, a pair of sleeping bags abandoned in the distance, a subtle hint of a beach towel flapping in the wind, a small boat docked in a lake, its shadow stretching into the darkness., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

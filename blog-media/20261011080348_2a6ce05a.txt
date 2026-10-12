@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film illustration of a person surrounded by "losses" (money, material possessions) being drawn into a green box filled with hearts and light, symbolizing the surpassing greatness of the knowledge of Christ Jesus my Lord, with animated, swirling patterns of teal and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

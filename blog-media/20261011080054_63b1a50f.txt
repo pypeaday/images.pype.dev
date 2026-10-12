@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film style illustration of a biblical landscape with Cain standing at a crossroads amidst blooming thorns and vines, surrounded by his sheep and a serpent, symbolizing sin's growth and its consequences, warm golden light illuminates the scene with teal accents in the darkening sky, expressive shadows and textures create depth, rich warm colors dominate the palette with subtle amber hues, vibrant animals and characters subtly integrated into the environment to represent family-worship-bible-guide themes., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

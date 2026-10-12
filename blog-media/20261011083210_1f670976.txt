@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, mist-shrouded, ancient cityscape at dusk, featuring crumbling stone archways and broken columns amidst a sea of dark blue and purple fog, with subtle mint accents in the mist, warm amber hues casting an ethereal glow on weathered, twisted tree roots stretching up towards a crescent moon hanging low in the dark sky., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

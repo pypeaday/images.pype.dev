@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, barren, moon-like landscape with a lone, glowing, lantern-like structure in the distance, surrounded by swirling, iridescent, cloud-like formations, with subtle mint and amber hues, atmospheric lighting, dark muted palette, wide panoramic banner, with an LVM (Logical Volume Manager) device prominently displayed in the foreground., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

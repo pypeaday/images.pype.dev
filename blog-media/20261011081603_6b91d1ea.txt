@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, moonlit forest with twisted tree branches like outstretched arms, symbolizing growth and obedience, set against a dark muted palette with subtle mint and amber accents, wide panoramic banner with wispy clouds and fog, atmospheric lighting with soft golden hues, and subtle hints of ancient, mystical structures in the distance., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

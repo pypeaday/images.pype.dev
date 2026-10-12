@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dimly lit, misty forest landscape with twisted tree branches and gnarled trunks, a solitary lantern hanging from a branch, surrounded by swirling fog, symbolizing introspection and personal growth, with subtle mint and amber hues, no visible horizon line, atmospheric lighting creating an eerie sense of depth., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

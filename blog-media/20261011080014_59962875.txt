@@ -1,0 +1,4 @@
+modisn disney, A woman in a garden setting, surrounded by lush foliage, with a snake and an apple tree in the background, her arms outstretched as if being lifted up, symbols of shame and fall, contrasted with a warm light from above, gracing her face, a gentle smile, animals watching from nearby bushes, teal and amber hues dominating the color palette., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

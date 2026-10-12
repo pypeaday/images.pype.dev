@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, dreamlike dashboard landscape with glowing neon symbols, subtle mint accents on ancient stone structures, amber-colored lanterns hanging from gnarled tree branches, foggy atmosphere with misty veils, dark muted palette with hints of starlight and soft aurora borealis, symbolic structure resembling an ancient temple with intricate carvings, panoramic wide banner stretching across the canvas., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

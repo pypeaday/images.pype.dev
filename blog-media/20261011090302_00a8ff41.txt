@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a Kanboard instance's dark muted interior with subtle mint accents, symbolic visual metaphor for issue migration, atmospheric lighting evoking feelings of tech and productivity, wide panoramic banner conveying the idea of shifting development to on-prem environments, glistening amber accents highlighting the script's success, no distractions or clutter., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

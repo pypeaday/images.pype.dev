@@ -1,0 +1,4 @@
+modisn disney, Abraham and Melchizedek, priestly figure standing on a mountainous landscape of Jerusalem (Moriah), Abraham offering a ram as an atonement covering, Abraham and Sarah walking towards the mountain, God's blessing radiating from the sky, teal and amber hues with warm lighting., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

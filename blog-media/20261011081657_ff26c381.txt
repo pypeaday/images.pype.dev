@@ -1,0 +1,4 @@
+A cinematic matte painting of a dark, abandoned, misty library with fog swirling around old bookshelves, a lone lantern hanging from the ceiling casting warm amber light, mysterious symbols etched into the walls, and a subtle mint glow emanating from the pages of an open book resting on a weathered wooden desk., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

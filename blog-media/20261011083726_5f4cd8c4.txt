@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, code-infused citadel rising from a mist-shrouded, industrial landscape, set against a darkened sky with subtle mint hues and flickering amber lanterns suspended in the air, amidst scattered, metallic debris, eerie fog swirling around ancient, crumbling machinery, and towering, Gothic-inspired spires, as if forged from twisted code and circuitry, lit by an ethereal, otherworldly glow., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

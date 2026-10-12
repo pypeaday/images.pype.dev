@@ -1,0 +1,4 @@
+modisn disney, A weary workaholic computer mouse trapped in a digital labyrinth, surrounded by swirling clouds of stress and anxiety, as a gentle, golden light breaks through the darkness, illuminated by a shining, amber-colored cross on a distant horizon, with a small, determined figure (a stylized representation of the author) standing at the edge of the maze, reaching out towards the light., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

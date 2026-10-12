@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, ruined temple at sunset on a misty, moonlit lake surrounded by twisted, gnarled trees, weathered stone archways, flickering lanterns casting eerie shadows, dark blues and greys with subtle mint and amber hues, panoramic banner spanning the horizon, fog swirling at the water's edge., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

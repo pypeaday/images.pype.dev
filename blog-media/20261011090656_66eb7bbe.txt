@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, dark, abandoned datacenter at dusk, featuring a lone, misty, ZFS pool in the distance, surrounded by rows of metallic servers and dimly lit console panels, with an atmospheric lighting effect evoking the idea of data transfer and synchronization, set against a wide panoramic banner with subtle mint and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

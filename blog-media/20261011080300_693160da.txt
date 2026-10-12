@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated film illustration of a table set for breakfast on a serene beach, with a majestic Jesus as the host, surrounded by his disciples and various sea creatures, all enjoying a meal together, amidst warm golden light, rich warm tones with teal and amber accents, and subtle animations of faith symbols like fish and birds in the background., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

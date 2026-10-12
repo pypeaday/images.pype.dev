@@ -1,0 +1,4 @@
+modisn disney, Stable Diffusion image prompt: desktop computer, crashed hard drive, NAS, Ubuntu, Aurora, zfs pool, jetkvm key rotation, restic backup, windsurf, homelab repository, observability setup, babyblue-aurora, lost files, paperwork chaos, tangled cables, burning fuse, glowing motherboard, shimmering pixels, soft focus., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

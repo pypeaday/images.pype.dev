@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, moonlit landscape with a lone, glowing orb suspended above a mystical, ancient archway, symbolizing authentication and color management, set amidst a vast, darkened expanse of swirling mist and twisted, gnarled tree roots, soft mint-green and amber hues bleeding into one another like the fusion of digital and analog worlds., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

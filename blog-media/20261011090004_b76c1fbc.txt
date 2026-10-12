@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned warehouse at dusk with a lone, worn-out luggage cart overflowing with dusty, compressed packages on its side amidst a backdrop of rugged, grey-brown terrain under a pale orange-tinged sky with subtle mint and amber accents scattered throughout the scene, conveying unpacking, storage, and remote access in a symbolic, surrealistic manner., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

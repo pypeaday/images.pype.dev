@@ -1,0 +1,4 @@
+modisn disney, A stormy sea, a rock of faith, an arm to trust, tempest-tossed believer, everlasting arms, poetic clouds, morning light, golden hues, teal and amber skies, animated vines, leaves as wings, gentle winds, dramatic shadows, warm light on weathered wood, a figure in the distance, eyes closed in prayer, a symbol of hope rising from the depths., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

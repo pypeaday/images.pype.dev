@@ -1,0 +1,4 @@
+Stable Diffusion image of a dark, abstract, cinematic matte painting of a mystical library with a large, open window in the background, displaying a subtle, glowing map of Linux file systems, surrounded by swirling mist and soft, ethereal light, with symbolic structures and artifacts floating in mid-air, set against a backdrop of a dense, atmospheric forest at dusk., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

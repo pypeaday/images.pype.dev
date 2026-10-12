@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned library at dusk with flickering lanterns, symbolic depiction of forgotten knowledge and reflection, dark muted palette with subtle mint and amber accents, wide panoramic banner showing an eerie, overcast sky, mysterious, glowing portal in the background, eerie fog rolling in from the left, weathered stone archway, soft, ethereal light casting long shadows, abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

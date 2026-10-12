@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a remote, isolated landscape with ancient stone structures in the background, symbolizing a disconnected network, amidst foggy atmosphere with subtle mint accents and warm amber hues on a dark muted palette, wide panoramic banner depicting a lone lantern standing at the edge of a misty hillside., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+A desolate, misty desert landscape with a majestic stone structure in the distance, a worn, ancient road winding its way through the dunes, a faint glow of lanterns illuminating the entrance to a secluded temple, a subtle waterfall cascading into a tranquil mikvah, a lone tree standing sentinel amidst the arid landscape, its branches twisted and gnarled with age., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

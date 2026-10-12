@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned library at dusk, with a large, ornate clock tower in the background, surrounded by shelves of dusty books, scattered papers, and forgotten notes, reflecting warm amber light onto the weathered stone floor, symbolizing the passage of time, moments lost in reflection, and the quest for productivity., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

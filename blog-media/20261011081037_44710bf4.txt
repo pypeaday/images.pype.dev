@@ -1,0 +1,6 @@
+Here is a single Stable Diffusion image prompt for a blog cover:
+
+"A futuristic, cinematic matte painting of an abstract starship-inspired landscape at dusk, with subtle mint and amber accents in the dark muted palette, featuring a wide panoramic banner with a stylized, symbolic representation of an ipython terminal window with a working directory indicator, git branch display, python environment symbol, and 'ipython' text in a bold, metallic font, set against a backdrop of a cloudy, starry night sky with atmospheric lighting effects., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film illustration of a benevolent king or queen surrounded by lush gardens and creatures, symbolizing help, listening, and solitude, set against a warm golden backdrop with teal accents, incorporating subtle hints of resurrection and ascension, all bathed in expressive lighting that conveys the idea of living in harmony with others., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

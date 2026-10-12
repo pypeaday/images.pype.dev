@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, glowing server room with rows of humming servers, shimmering data streams, and misty fog, set against a dark muted background with subtle mint and amber accents, as if seen through a warm lens, atmospheric lighting with flickering fluorescent tubes, and a wide panoramic banner stretching across the sky with undulating clouds., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

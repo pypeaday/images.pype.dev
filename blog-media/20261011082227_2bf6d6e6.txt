@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a sprawling, mist-shrouded, forgotten cityscape at dusk, with crumbling stone archways, overgrown vine-covered spires, and a distant, crescent moon casting an ethereal glow amidst wispy, silver clouds, weathered wooden doors leading to hidden passageways, subtle mint accents in the ornate metalwork, amber-hued lanterns flickering in the darkness, a sweeping panorama of rugged terrain stretching into the horizon., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+modisn disney, A woman stands amidst a garden of blooming flowers and vines, surrounded by subtle hints of the flesh (twisted roots, thorns, and broken chains), as a gentle breeze whispers "the Spirit" through the petals, her hands held out in a gesture of surrender, with a soft, golden light illuminating her face, a small bird perched on her shoulder, and in the background, a subtle silhouette of Christ on the cross., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

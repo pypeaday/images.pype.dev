@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark, misty Jerusalem landscape at sunset, with the Bema standing alone in the distance, surrounded by ancient stone walls and rubble-strewn streets, symbolic pillars and lanterns casting an eerie glow, subtle mint and amber accents amidst the desolate atmosphere, wide panoramic banner stretching across the sky., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a dark, abandoned library with cracked stone walls, overgrown vines, and shattered stained glass windows reflecting moonlit clouds, mist-shrouded turrets, flickering lanterns, and scattered books spilling onto the floor amidst a swirl of autumn leaves, subtle mint and amber hues bleeding through the cracks in the walls., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, darkened landscape with a subtle mint glow on ancient, ruined stones, symbolic pillars representing biblical knowledge, atmospheric mist swirling around them, warm amber hues peeking through, wide panoramic banner in the background with weathered wooden slats and overgrown vines, scattered books and scrolls strewn about, faint light shining from within., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

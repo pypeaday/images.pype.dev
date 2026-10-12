@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned library with towering bookshelves, glowing lanterns, and stained glass windows in muted dark tones, subtle mint and amber accents, surrounded by swirling clouds and a perpetual twilight sky, featuring intricate stone carvings and symbolic archways, with warm golden light casting long shadows across the landscape., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

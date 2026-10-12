@@ -1,0 +1,4 @@
+A dilapidated, abandoned building with a faded "Wind and Fire Ministries" sign hanging crookedly from its facade, set against a darkening sky with storm clouds gathering in the distance, illuminated by a single flickering streetlight casting long shadows across the overgrown grass and weeds, with smoke rising gently into the air like a reminder of forgotten rituals and abandoned dreams., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

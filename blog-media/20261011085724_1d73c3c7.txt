@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned temple at dusk amidst overgrown vegetation and twisted tree roots, with a dimly lit doorway leading to an empty, dimly lit chamber, surrounded by swirling clouds and ethereal, glowing orbs, symbolizing the exploration of unknown BIOS versions in the vast digital wilderness, infused with soft mint and warm amber hues, set against a wide panoramic backdrop of a darkening sky with subtle starlight., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

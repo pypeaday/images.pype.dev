@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, abandoned dock at sunset with a lone, glowing lantern on a worn, wooden post amidst a sea of fog, subtle mint accents in the lantern's glow and weathered wood, dark muted palette with amber undertones, wide panoramic banner that stretches across the sky like a shattered mirror, symbolic structures resembling keys and locks scattered among the dock's rusty machinery., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

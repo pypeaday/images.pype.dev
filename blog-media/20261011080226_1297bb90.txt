@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film style illustration of a radiant, light-filled garden where Jesus and a sheep symbolize the Father's inheritance, surrounded by lush greenery, symbolic flowers that bloom into hearts, and a few birds flying in towards the central figure, warm golden lighting with teal accents, expressive animation conveying the idea of being "born again" as a gentle, transformative breeze rustling leaves., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

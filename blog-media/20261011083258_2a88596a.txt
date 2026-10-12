@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark mist-shrouded, abandoned library at dusk with twisted iron latticework and Gothic arches, surrounded by overgrown vines and subtle hints of mint and amber, wide panoramic banner capturing the eerie atmosphere, emphasizing the mystical connection between knowledge and reflection, symbolic structures resembling old clockwork mechanisms amidst the decaying architecture., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

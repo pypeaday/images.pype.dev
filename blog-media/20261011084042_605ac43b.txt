@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a vast, dark forest with twisted, ancient trees, their branches like outstretched arms, symbolizing responsibility and crushing weight, amidst a sky filled with stormy clouds, with lightning illuminating a lone, ornate door at its center, shrouded in mist, surrounded by a halo of soft, ethereal light that casts no shadows, subtle mint accents on the door's frame, amber hues glowing within as if from an inner flame., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

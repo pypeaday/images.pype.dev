@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned homelab setup at sunset on a hillside with a subtle mint and amber color palette, wide panoramic banner depicting a dark muted landscape with scattered clouds and a distant, eerie light source, symbolic structures in the form of stacked containers and data center equipment forming an ethereal, glowing mesh., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

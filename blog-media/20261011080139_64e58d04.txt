@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of a couple holding hands amidst intertwining vines and flowers, with a warm golden light shining down, surrounded by symbolic elements representing shared life, faith, and marriage, featuring an owl, rabbit, or other animal companions, rich warm color palette with teal and amber accents, set against a backdrop of soft, gradient skies., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

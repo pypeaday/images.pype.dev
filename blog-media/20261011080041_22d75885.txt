@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film inspired Genesis-inspired artwork of a fiery red desert landscape with Cain in the foreground walking away from a burning bush, surrounded by a flock of flamingos with their feathers ablaze, symbolizing patience and fiery devotion to God, expressive warm golden lighting with teal accents shining on Cain's outstretched hands holding a Bible, rich warm color palette with amber hues, animated character design, figurative animals such as birds and sheep in the background., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

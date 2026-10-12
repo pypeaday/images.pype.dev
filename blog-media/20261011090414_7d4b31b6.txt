@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a lone wireless controller standing atop a misty, moonlit hill overlooking a sprawling, abandoned gaming arcade at dusk, surrounded by dark, weathered walls and flickering, amber-toned neon lights, with subtle mint undertones in the mist and ambient glow, and a vast, starry sky above., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

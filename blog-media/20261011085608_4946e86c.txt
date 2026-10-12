@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mist-shrouded, abandoned, mystical library at dusk, with shelves lined with dusty tomes containing glowing, ethereal orbs, surrounded by a halo of soft, blue-green luminescence, set against a dark, gradient sky with subtle mint and amber hues, amidst a landscape of twisted, gnarled tree roots, overgrown with vines and moss, evoking the idea of knowledge and wisdom being slowly consumed by the passage of time., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

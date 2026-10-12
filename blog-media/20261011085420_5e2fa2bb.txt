@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned repository at dusk, surrounded by rolling hills and a subtle, glowing mint pathway leading to a distant, amber-lit structure symbolizing codeberg pages and static-site hosting, wide panoramic banner of a foggy, mystical forest with ancient, gnarled trees and twisted, metallic branches, atmospheric lighting with warm oranges and soft pinks, dark muted palette with hints of warm amber and cool mint., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

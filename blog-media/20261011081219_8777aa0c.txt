@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, moonlit, desert landscape with smoke rising from a lone, abandoned, adobe building in the background, surrounded by twisted, gnarled tree branches and scattered jalapeño peppers, symbolizing the smoky queso Blanco, while in the foreground, a pan of simmering, golden queso sits atop a rocky outcropping, emitting a warm, amber glow., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

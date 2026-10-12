@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a desolate, mist-shrouded cityscape at dusk, with crumbling stone buildings and a lone, flickering streetlamp casting an amber glow, surrounded by a halo of swirling, ethereal light, symbolizing introspection and personal struggle amidst the darkness, set against a wide panoramic banner of dark muted hues with subtle mint and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

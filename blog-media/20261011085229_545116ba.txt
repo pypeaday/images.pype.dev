@@ -1,0 +1,4 @@
+Docker Compose as a matrix of interconnected neural networks, AI agents rising from a swirling vortex of code, with glowing blue lines tracing the shape of a futuristic cityscape, set against a darkened sky with minty clouds and amber-hued sunlight peeking through the cracks, a lone skyscraper looming in the distance with a subtle glow emanating from its core., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

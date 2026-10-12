@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of a majestic, ever-present Yahweh dressed in shimmering regalia, girded with mighty symbols of power and authority, surrounded by rivers overflowing with rumbling waters, pounding breakers of the sea, celestial cherubim and seraphim praising from above, warm amber light illuminating the scene, rich teal accents woven throughout, gentle yet powerful animal creatures (e.g. lions, eagles) subtly integrated into the visual metaphor, all set against a soft golden background evoking eternity and timelessness., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

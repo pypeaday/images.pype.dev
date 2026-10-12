@@ -1,0 +1,4 @@
+an abandoned, ruined castle in the misty dawn, surrounded by a halo of soft golden light, with a faint hint of mint and amber hues, set against a dark grey sky with storm clouds, a lone, glowing crescent moon hanging low in the horizon, silhouetted against the ruins' crumbling spires., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a bridge spanning a misty river at dusk, with a dark muted palette featuring subtle mint and amber accents, wide panoramic composition with atmospheric lighting that evokes mystical ambiance, incorporating symbolic arches and stone pillars rising above the water's edge, with a lone lantern casting a warm glow on the bridge's dark steel railings., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

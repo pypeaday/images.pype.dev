@@ -1,0 +1,4 @@
+modisn disney, whimsical animated-film illustration of a wise old man standing in front of a serene landscape, surrounded by symbolic visual metaphors representing personal growth and self-awareness, expressive lighting highlighting the inner light of wisdom, rich warm palette with teal and amber accents, subtle hints of judgment and measurement woven into the scenery., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a vast, dimly lit library with towering shelves that stretch into the darkness, symbolic stacks of worn leather-bound books and scattered notes, subtle mint and amber hues cast an otherworldly glow on the forest of literature, atmospheric fog rolling in off a distant mountain range, weathered stone walls bearing the weight of forgotten knowledge., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

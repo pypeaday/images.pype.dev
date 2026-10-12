@@ -1,0 +1,4 @@
+abstract cinematic matte painting, symbolic visual metaphor for introspection and self-reflection, atmospheric lighting with warm golden tones, dark muted palette featuring subtle mint and amber accents, wide panoramic banner set against a stormy night sky with lightning illuminated clouds, dense fog rolling in over ancient tree-lined hills, twisted gnarled branches resembling thought fragments, weathered stone structures blending seamlessly into the landscape., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

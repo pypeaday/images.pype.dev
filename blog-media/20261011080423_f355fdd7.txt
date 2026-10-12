@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated-film illustration of a joyful figure ( possibly a silhouette or a simple outline) overflowing with gratitude and praise, surrounded by gentle, swirling clouds with warm, golden light spilling from their face, as they stand on a tranquil, nature-inspired landscape with a subtle roof in the background, teeming with life, symbolic fruit and flowers blooming around them, softly glowing teal accents amidst the lush foliage., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

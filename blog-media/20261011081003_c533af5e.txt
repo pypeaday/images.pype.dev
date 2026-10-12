@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a desolate, ruined cityscape at dusk with broken skyscrapers, crumbling corporate high-rises, overgrown vegetation, and smog-filled atmosphere, symbolic structure of a shattered glass cube floating in mid-air, subtle mint and amber hues, dark muted palette with hints of grey, blue, and purple, wide panoramic banner that wraps around the entire image., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

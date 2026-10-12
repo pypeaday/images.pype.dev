@@ -1,0 +1,4 @@
+A lone container ship drifts through a desolate, misty harbor at dusk, its docked nextcloud server in the background, shrouded in an ethereal veil of purple and blue hues, as a solitary lantern sways above, casting a warm amber glow on the wet cobblestones, the sea breeze rustling an assortment of weathered gears and cogs that seem to embody the very essence of chronometric precision., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

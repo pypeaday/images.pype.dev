@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a darkened, abandoned church at dusk, with a faintly glowing window in the foreground, surrounded by overgrown gardens and twisted tree branches, a machete leaning against a stone pillar, a hint of mist rising from the ground, symbolic of spiritual struggle and redemption, atmospheric lighting casting long shadows across the landscape., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

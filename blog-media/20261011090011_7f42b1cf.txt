@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mist-shrouded, dark forest landscape with twisted tree branches resembling RAM sticks, a glowing lantern in the distance symbolizing the "XMP" idea, subtle mint accents on weathered wooden planks, amber hues on the horizon evoking a sense of warmth and technological advancement, wide panoramic view capturing the vastness of the scene, with overcast skies and soft, filtered light., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

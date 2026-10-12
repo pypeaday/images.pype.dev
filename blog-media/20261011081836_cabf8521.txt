@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a mystical, abandoned, ancient library at dusk with flickering torches, surrounded by overgrown gardens and misty fog, symbolic structures resembling prayer beads or rosaries suspended from the library's stone façade, warm amber light spilling onto weathered marble floors, dark muted palette with subtle mint accents in the reflected glow of lanterns., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a vast, dark landscape with a lone, glowing resume document suspended in mid-air, surrounded by swirling mint and amber hues, atmospheric lighting casting an otherworldly glow on the eerie, symbolic structure in the distance, wide panoramic banner stretching across the horizon, weathered stone walls blending seamlessly into the misty, cinematic atmosphere., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

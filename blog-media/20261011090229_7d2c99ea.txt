@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, ancient temple with cracked stone walls, overgrown with vines, surrounded by a misty, moonlit forest, with a subtle mint glow emanating from within, set against a dark, starry night sky with amber-colored clouds, featuring a panoramic banner stretching across the top third of the image., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a futuristic, abandoned harbor at dusk, with misty veil rising from the water, QR code patterns etched into old stone walls, dynamic link resolution symbols integrated into broken lighthouse architecture, branding icons as weathered sea shells, analytics screens reflecting off wet pavement, simple API nodes resembling seagull silhouettes amidst stormy skies., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

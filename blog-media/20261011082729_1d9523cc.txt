@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark, misty, abandoned theater with a wide panoramic banner, symbolic structure resembling a shattered prism, suspended above a desolate landscape with weathered, worn stone walls, subtle mint and amber hues in the atmospheric lighting, warm, golden light spilling from cracks in the pavement, clouds above like wispy brushstrokes of paint., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

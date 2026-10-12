@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a dark forest with a misty atmosphere, symbolic visual metaphor for branching lines connecting to a central trunk, atmospheric lighting, wide panoramic banner, abstract representation of git branches merging into a single trunk, trees with glowing mint and amber accents silhouetted against a stormy sky, abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a misty, moonlit office building with shattered glass windows and a cracked, worn marble floor, symbolizing chaos and destruction, behind which a subtle, gleaming skyscraper rises, representing financial freedom and progress, with warm amber light spilling from the top, casting long shadows across the desolate landscape, punctuated by wispy strands of mint green mist rising from the ground., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

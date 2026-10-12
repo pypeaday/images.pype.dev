@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a futuristic server room with a single, glowing server as the focal point, surrounded by a halo of light, set against a dark muted background with subtle mint and amber accents, wide panoramic banner with a stylized, symbolic representation of Tailscale's architecture, atmospheric lighting with subtle warmth and depth, weathered, industrial textures, and a sense of isolation and security., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

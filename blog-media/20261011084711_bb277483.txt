@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a vast, eerie library with towering shelves and flickering lanterns, symbolic representation of self-hosted knowledge and discovery, atmospheric lighting with warm mint and amber hues, dark muted palette with subtle hints of luminescence, wide panoramic banner depicting a mystical, mist-shrouded cityscape at dusk., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

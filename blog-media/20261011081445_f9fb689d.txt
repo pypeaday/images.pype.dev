@@ -1,0 +1,4 @@
+A futuristic, abstract cityscape at sunset, with a darkened, minimalist skyscraper (TrueNAS box) standing alone in the foreground, while the wireguard interface glows softly in the background, with subtle mint and amber hues reflecting off the wet pavement and foggy atmosphere, conveying the idea of security and connectivity., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

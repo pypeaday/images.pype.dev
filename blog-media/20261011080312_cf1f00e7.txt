@@ -1,0 +1,4 @@
+modisn disney, A whimsical, animated-film inspired depiction of a seed sower amidst a garden of diverse soil types, with birds represented as shadowy silhouettes in the background, symbolizing the struggle for spiritual growth and the importance of discerning between genuine and superficial understanding, set against a warm, rich palette with teal and amber accents., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

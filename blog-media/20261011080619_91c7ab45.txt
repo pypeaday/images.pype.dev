@@ -1,0 +1,4 @@
+modisn disney, A whimsical animated film-inspired illustration of a serene, sunlit landscape featuring a gentle figure (perhaps Nic) walking along a winding creek path with lush greenery, surrounded by vibrant wildflowers and towering trees, as a blue bird perches on a nearby branch, all set against a warm amber-hued sky with soft teal accents and dappled light filtering through the foliage., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

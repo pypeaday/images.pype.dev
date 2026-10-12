@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a misty, abandoned library at dusk with faded bookshelves and a hint of mint on worn leather bindings amidst dark muted hues of wood, stone, and forgotten knowledge, subtle amber glow emanating from within, wide panoramic banner stretching across the frame, weathered wooden roofline above, overgrown vines crawling up crumbling spires, soft light filtering through stained glass windows., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

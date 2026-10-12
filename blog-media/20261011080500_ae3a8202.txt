@@ -1,0 +1,4 @@
+modisn disney, Whimsical animated-film illustration of a small candle on a worn wooden table in a snowy forest, surrounded by hope-filled symbols like hearts, lanterns, and stars, with a gentle warm glow emanating from the candle, expressive lighting that evokes a sense of peacefulness and anticipation for Advent 2025., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

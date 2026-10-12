@@ -1,0 +1,4 @@
+modisn disney, A stylized, whimsical illustration of a person standing at the edge of a vast, swirling vortex, surrounded by wispy threads of light, representing the boundaries between the world and God's sovereignty, with a subtle glow emanating from within, symbolizing the freedom to follow Jesus and live in community with God., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]

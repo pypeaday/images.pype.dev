@@ -1,0 +1,4 @@
+A futuristic, dimly lit, abstract cityscape at dusk with a single, glowing mint-green keyboard on a windowsill, surrounded by subtle amber light emanating from the edges of the scene, a wide panoramic view, a stylized, symbolic representation of a workspace layout in the background, with soft, cinematic brushstrokes and a matte finish., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

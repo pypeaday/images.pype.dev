@@ -1,0 +1,4 @@
+abstract cinematic matte painting of a vast, dark forest landscape at dusk with misty fog rolling in, a lone, lantern-lit pathway stretching into the distance, surrounded by twisted, ancient trees and weathered stone structures, soft, ethereal light illuminating the scene, subtle mint and amber hues adding depth and warmth to the palette., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

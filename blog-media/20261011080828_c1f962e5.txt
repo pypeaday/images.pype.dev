@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a barren, ancient landscape with crumbling stone structures, a worn-out wooden cross in the distance, subtle mint and amber hues of sunset, misty mountains in the background, and a vast, dark sky with scattered, golden stars, symbolic representation of God's patience and redemption cycle., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

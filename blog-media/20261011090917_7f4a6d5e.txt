@@ -1,0 +1,4 @@
+Stylized, abstract, cinematic matte painting of a futuristic tech lab with a large, dark-colored screen displaying a mint-green TypedDict icon, surrounded by warm amber accents, against a wide panoramic backdrop of dimly lit cityscape at dusk, with subtle reflections on the screen and faint hints of coding equipment in the shadows., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

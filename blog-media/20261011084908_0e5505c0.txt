@@ -1,0 +1,4 @@
+Abstract cinematic matte painting of a mystical, dark forest with tall, slender trees, their branches tangled with glowing, ethereal mint-colored vines, symbolizing the connection between accounts, VPC Peering cables snaking through the underbrush like serpents, weaving a web of security and trust, as amber light casts an otherworldly glow over the landscape, capturing the essence of cross-account AWS Security Group ID Reference., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

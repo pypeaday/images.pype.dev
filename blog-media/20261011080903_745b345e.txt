@@ -1,0 +1,4 @@
+starry night sky with scattered objects of data loading tools and s3 buckets in the foreground, a vast cityscape of pipes and wires behind them, a lone lantern casting an amber glow over the scene, subtle mint accents on the horizon, a dark matte painting style with soft, dreamy brushstrokes., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

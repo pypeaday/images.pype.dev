@@ -1,0 +1,4 @@
+Abandoned server room with dusty equipment, dimly lit by flickering fluorescent lights, a lone SSD in an enclosure on a workbench, surrounded by scattered cables, with a faint misty background of old computer parts, and a faint hint of mint and amber hues., abstract cinematic cover art, atmospheric composition, deep shadows with volumetric light, muted dark palette with subtle mint and amber accents, symbolic visual metaphor, matte painting, wide panoramic banner, high detail
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]
