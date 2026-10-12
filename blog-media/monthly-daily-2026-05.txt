@@ -1,0 +1,4 @@
+cozy, personal, journal, quiet, intimate, illustration, warm, lamp-lit, scene, small, vignette, composition, soft, textures, muted, palette, amber, glow, empty, table, pen, paper, notebook, subtle, shadows, gentle, lighting.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

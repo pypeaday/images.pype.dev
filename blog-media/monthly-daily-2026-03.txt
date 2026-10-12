@@ -1,0 +1,4 @@
+Quietly lit, intimate, personal journal, cozy ambiance, warm lamp, soft textures, muted palette with amber hue, small, vignette-style illustration of a single, glowing bead on a wooden desk, subtle beads scattered around the scene, quiet morning atmosphere.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

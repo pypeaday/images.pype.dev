@@ -1,0 +1,4 @@
+a quiet, intimate, nighttime study area with a single warm lamp casting a cozy glow, soft, muted autumnal colors with an amber hue, soft textiles and warm wood tones, a small, cluttered bookshelf in the background, a few scattered notes and papers on a wooden desk, a steaming cup of coffee or tea nearby.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

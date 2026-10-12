@@ -1,0 +1,4 @@
+A quiet, cozy, warm-lamp-lit journaling scene with a small machete, soft textures, muted, amber-toned colors, and a subtle, golden glow, on a wooden desk in a peaceful, personal space, with scattered papers and pens in the background, surrounded by nature elements like a potted plant or a vase of flowers.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]

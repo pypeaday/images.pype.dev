@@ -1,0 +1,4 @@
+Cozy study with a single warm lamp-lit desk in a quiet room, softly lit morning with 545 AM sunlight filtering through curtains, small vignette of scattered papers and personal items, soft textures, muted palette with amber glow, subtle shadows on wooden furniture, minimal reflections on glass surfaces, calming atmosphere.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]
