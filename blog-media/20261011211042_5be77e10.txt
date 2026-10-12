@@ -1,0 +1,4 @@
+modisn disney, A serene, whimsical animated-film style illustration of a rugged, ancient, stone-walled cityscape at dusk, with warm, rich teal and amber hues illuminating the surrounding landscape, where a lone figure (small, in the background) stands in contemplation beneath a blooming tree, surrounded by stormy skies and twinkling stars, as the face of God watches over from above.
+
+Negative prompt: portrait, close-up, text, watermark, logo, blurry, lowres, noisy, deformed, distorted
+Steps: 30, Size: 1024x512, Model: modernDisneyXL_v3.safetensors [248c078190]
