@@ -1,0 +1,4 @@
+A serene olive tree stands alone in a misty landscape, its branches stretching towards soft golden light, surrounded by warm, muted tones of amber and mint, with gentle foliage and subtle texture, evoking a sense of peace and contemplation, set against a backdrop of calm natural scenery.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]
