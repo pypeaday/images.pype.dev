@@ -1,0 +1,4 @@
+calm, illustrative scene of a misty, moonlit olive grove, gentle composition, soft natural light, muted palette featuring mint and amber hues, serene atmosphere, peaceful foliage, soft focus, dreamy quality, minimal texture and detail, calming natural colors.
+
+Negative prompt: people, person, human, face, portrait, body, figure, silhouette, animal, creature, text, letters, logo, watermark, blurry, lowres, noisy, grainy, oversharpened, deformed, distorted, artifacts
+Steps: 30, Size: 1024x512, Model: revAnimated_v122EOL.safetensors [4199bcdd14]
